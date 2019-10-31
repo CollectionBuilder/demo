@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Map | Wienberg Demo</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://collectionbuilder.github.io/demo/wienberg/favicon.ico">
+<meta http-equiv="Content-Language" content="en-us" >
+<meta name="description" content="CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.">
+<meta name="author" content="Pepperdine Libraries Digital Collections" >
+
+<!-- Open Graph meta -->
+<meta property="og:title" content="Map | Wienberg Demo" />
+<meta property="og:description" content="CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." />
+<meta property="og:site_name" content="Wienberg Demo" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://cdm15730.contentdm.oclc.org/digital/iiif/p15730coll18/2584/full/max/0/default.jpg" />
+<meta property="og:image:alt" content="World-Famous Cliff House Overlooking Seal Rocks" />
+<meta property="og:url" content="https://collectionbuilder.github.io/demo/wienberg/map.html" />
+<meta property="og:locale" content="en_US" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"Map | Wienberg Demo","publisher":"Pepperdine Libraries Digital Collections","description":"CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.","image":"https://cdm15730.contentdm.oclc.org/digital/iiif/p15730coll18/2584/full/max/0/default.jpg","url":"https://collectionbuilder.github.io/demo/wienberg/map.html"}</script> 
+
+
+
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/lib/bootstrap.min.css" type="text/css">
+<script defer src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/fontawesome-free/js/all.min.js"></script>
+
+
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.css">
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.fusesearch.css">
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/MarkerCluster.css">
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/MarkerCluster.Default.css">
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/wienberg/assets/css/custom.css" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Last build date: 2019-10-31 -->
+
+
+<meta name="robots" content="noindex">
+
+  </head>
+  <body>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1><a class="text-dark" href="/demo/wienberg/" >Wienberg Demo</a></h1>	 
+            <p>Digital Collection Magic with Static Web Technologies</p>
+        </div>
+        <div class="col-md-3 d-none d-md-block text-right">
+            <a class="btn btn-dark" href="https://cdm15730.contentdm.oclc.org/digital/" target="_blank" rel="noopener">
+                <img class="img-fluid" src="/demo/wienberg/assets/img/pepperdine-libraries-digital-collections.png" title="Pepperdine Libraries Digital Collections" alt="Pepperdine Libraries Digital Collections logo" >
+            </a>
+        </div>
+    </div>
+</div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="d-md-none col-8">
+            <a class="p-1" href="https://cdm15730.contentdm.oclc.org/digital/" target="_blank" rel="noopener">
+                <img class="img-fluid" id="mobile-nav-image" src="/demo/wienberg/assets/img/pepperdine-libraries-digital-collections.png" title="Pepperdine Libraries Digital Collections" alt="Pepperdine Libraries Digital Collections logo" >
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/">Home</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link mt-1" href="/demo/wienberg/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/data/">Data</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/wienberg/about.html">About</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="https://cdm15730.contentdm.oclc.org/cdm/search/collection/p15730coll18/" target="_blank">Database</a>
+                </li>
+            </ul>
+            <script>
+    function cdm_search() {
+        var query = document.getElementById("nav-search").value;
+        window.open("https://cdm15730.contentdm.oclc.org/digital/collection/p15730coll18/search/searchterm/" + encodeURI(query), "_blank" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="cdm_search(); return false;">
+    <input id="nav-search" class="form-control mr-sm-2 col-sm-9" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-primary my-2 my-sm-0" type="submit"><i class="fas fa-search"></i><span class="sr-only">Search Objects</span></button>
+</form>
+        </div>
+    </div>    
+</nav>
+
+    <main role="main">
+      <div id="map"></div>
+
+    </main>
+    <footer class="bg-dark pt-4 container-fluid ">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7  px-4 mt-2">
+
+            <h4><a href="https://collectionbuilder.github.io/demo/wienberg/" class="text-white">Wienberg Demo</a></h4>
+            <p class="text-white"><small>CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s.</small></p>
+            <ul class="nav nav-pills ">
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/locations.html">Locations</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/map.html">Map</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/data/">Data</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/wienberg/about.html">About</a>
+                </li>
+                
+            </ul>
+
+        </div>
+
+        <div class="col-md-5 mt-2 text-right">
+
+            <p class="text-right">
+                <a href="https://cdm15730.contentdm.oclc.org/digital/" target="_blank" rel="noopener">
+                    <img class="img-fluid" src="/demo/wienberg/assets/img/pepperdine-libraries-digital-collections.png" alt="Pepperdine Libraries Digital Collections logo">
+                </a>
+            </p>
+            <p class="text-white" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                        <img src="/demo/wienberg/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder logo" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2019</p>
+    </div>
+
+</footer>
+    <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/jquery-3.4.1.min.js"></script>
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+
+
+
+
+
+
+
+<!-- load leaflet dependencies -->
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.js"></script>
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/fuse.min.js"></script>
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.fusesearch.js"></script>
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.markercluster.js"></script>
+<script src="https://collectionbuilder.github.io/demo/wienberg/assets/lib/leaflet/leaflet.markercluster.freezable.js"></script>
+
+<script>
+(function(){
+    /* add collection map data */
+    var geodata = { "type": "FeatureCollection", "features": [ 
+    
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.675652,34.03561] }, "properties":
+    { "title": "Top O' the Sea", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;","location": "Malibu (Calif.);Malibu Pier, Malibu;", "cdm": "0",  "id": "wienberg0" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.84354,34.030701] }, "properties":
+    { "title": "Malibu West", 
+    "date": "1964","creator": null,"subject": "Matchcovers; Real estate business; Real estate development;","location": "Malibu (Calif.);Trancas Canyon, Malibu;", "cdm": "3",  "id": "wienberg3" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.674341,34.038099] }, "properties":
+    { "title": "Drift Inn Cafe", 
+    "date": "1959","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "6",  "id": "wienberg6" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.674299,34.038169] }, "properties":
+    { "title": "Tonga Lei and Ted's Rancho Restaurant", 
+    "date": "1969","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.); Topanga (Calif.);Carbon Beach, Malibu; Topanga Beach, Malibu;", "cdm": "8",  "id": "wienberg8" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.676986,34.037824] }, "properties":
+    { "title": "Malibu Inn Cafe", 
+    "date": "1953","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "10",  "id": "wienberg10" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.676682,34.037134] }, "properties":
+    { "title": "Malibu Sports Club Restaurant", 
+    "date": "1958","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;","location": "Malibu (Calif.);Malibu Pier, Malibu;", "cdm": "13",  "id": "wienberg13" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.666286,34.039325] }, "properties":
+    { "title": "Malibu Outrigger Resort Hotel", 
+    "date": "1970","creator": null,"subject": "Matchcovers; Hotels; Apartment hotels; Apartments;","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "16",  "id": "wienberg16" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.676986,34.037824] }, "properties":
+    { "title": "The Malibu Inn", 
+    "date": "1953","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "19",  "id": "wienberg19" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.560627,34.040328] }, "properties":
+    { "title": "Thelma Todd's Inn", 
+    "date": "1937","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Cafes;","location": "Pacific Palisades (Los Angeles, Calif.);", "cdm": "21",  "id": "wienberg21" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.636712,34.03661] }, "properties":
+    { "title": "The Albatross", 
+    "date": "1958","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Motels; Hotels;","location": "Malibu (Calif.);Las Flores Beach, Malibu;", "cdm": "23",  "id": "wienberg23" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.636712,34.03661] }, "properties":
+    { "title": "The Albatross[2]", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Motels; Hotels;","location": "Malibu (Calif.);Las Flores Beach, Malibu;", "cdm": "26",  "id": "wienberg26" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.446923,33.990609] }, "properties":
+    { "title": "Copper Kitchen", 
+    "date": "1948","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Culver City (Calif.);", "cdm": "29",  "id": "wienberg29" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.618624,34.037526] }, "properties":
+    { "title": "Canfield's Big Rock Cafe", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Big Rock Beach, Malibu;", "cdm": "32",  "id": "wienberg32" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.618624,34.037526] }, "properties":
+    { "title": "Canfield's Big Rock Cafe[2]", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Big Rock Beach, Malibu;", "cdm": "35",  "id": "wienberg35" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.843119,34.031179] }, "properties":
+    { "title": "Trancas Restaurant", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Trancas Canyon, Malibu;", "cdm": "38",  "id": "wienberg38" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.495011,34.014511] }, "properties":
+    { "title": "Brownie's", 
+    "date": "1967","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Bars; Nightclubs;","location": "Santa Monica (Calif.);", "cdm": "41",  "id": "wienberg41" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.676694,34.037155] }, "properties":
+    { "title": "Alice's Restaurant", 
+    "date": "1974","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;","location": "Malibu (Calif.);Malibu Pier, Malibu;", "cdm": "43",  "id": "wienberg43" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.501602,34.018147] }, "properties":
+    { "title": "Hotel Miramar International Room Restaurant", 
+    "date": "1967","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Hotels;","location": "Santa Monica (Calif.);", "cdm": "46",  "id": "wienberg46" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.484974,33.995323] }, "properties":
+    { "title": "The Chalet / Fisherman's Cove", 
+    "date": "1960","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Ice cream & ices; Piers & wharves; Amusement parks;","location": "Santa Monica (Calif.);", "cdm": "49",  "id": "wienberg49" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.668478,34.039485] }, "properties":
+    { "title": "Malibu Beach Motor Hotel", 
+    "date": "1947","creator": null,"subject": "Matchcovers; Motels;","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "55",  "id": "wienberg55" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.670008,34.039675] }, "properties":
+    { "title": "Frank Kerwin's Seacomber", 
+    "date": "1947","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "58",  "id": "wienberg58" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.6608,34.039675] }, "properties":
+    { "title": "Malibu Sands Motel", 
+    "date": "1957","creator": null,"subject": "Matchcovers; Motels; Hotels;","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "61",  "id": "wienberg61" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.576166,34.039711] }, "properties":
+    { "title": "The Point", 
+    "date": "1957","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Topanga (Calif.);Topanga Beach, Malibu;", "cdm": "64",  "id": "wienberg64" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.636132,34.0369] }, "properties":
+    { "title": "Las Flores Inn", 
+    "date": "1942","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Las Flores Beach, Malibu;", "cdm": "67",  "id": "wienberg67" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.52505,34.047186] }, "properties":
+    { "title": "Neeny's", 
+    "date": "1960","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Pacific Palisades (Los Angeles, Calif.);", "cdm": "70",  "id": "wienberg70" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.527326,34.031226] }, "properties":
+    { "title": "The Lighthouse", 
+    "date": "1932","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Lighthouses; Cafes;","location": "Pacific Palisades (Los Angeles, Calif.);", "cdm": "73",  "id": "wienberg73" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.473222,33.98732] }, "properties":
+    { "title": "Harrah's Bambu Hut", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Venice (Los Angeles, Calif.);", "cdm": "76",  "id": "wienberg76" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.55546,34.039169] }, "properties":
+    { "title": "Lindomar Lodge", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Hotels; Motels;","location": "Pacific Palisades (Los Angeles, Calif.);", "cdm": "79",  "id": "wienberg79" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.669579,34.038965] }, "properties":
+    { "title": "Malibu Rendezvous", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "91",  "id": "wienberg91" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.492899,34.018019] }, "properties":
+    { "title": "Flower Drum Garden", 
+    "date": "1972","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Santa Monica (Calif.);", "cdm": "92",  "id": "wienberg92" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.666126,34.039921] }, "properties":
+    { "title": "Sea Esta Lodge", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Hotels; Motels;","location": "Malibu (Calif.);Carbon Beach, Malibu;", "cdm": "93",  "id": "wienberg93" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.637559,34.037342] }, "properties":
+    { "title": "Malibu La Costa Cafe", 
+    "date": "1947","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Malibu (Calif.);La Costa Beach, Malibu;", "cdm": "94",  "id": "wienberg94" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.637954,34.037439] }, "properties":
+    { "title": "Sale's Market", 
+    "date": "1944","creator": null,"subject": "Matchcovers; Grocery stores;","location": "Malibu (Calif.);Las Flores Beach, Malibu; La Costa Beach, Malibu;", "cdm": "95",  "id": "wienberg95" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.576166,34.039711] }, "properties":
+    { "title": "The Point", 
+    "date": "1962","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants","location": "Topanga (Calif.);Topanga Beach, Malibu;", "cdm": "96",  "id": "wienberg96" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.637605,34.037375] }, "properties":
+    { "title": "The Country Store", 
+    "date": "1968","creator": null,"subject": "Matchcovers; Grocery stores;","location": "Malibu (Calif.);Las Flores Beach, Malibu; La Costa Beach, Malibu;", "cdm": "97",  "id": "wienberg97" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.54554,34.040232] }, "properties":
+    { "title": "Bel Air Bay Club", 
+    "date": "1942","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Restaurants; Country clubs;","location": "Pacific Palisades (Los Angeles, Calif.);", "cdm": "98",  "id": "wienberg98" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.482115,34.032593] }, "properties":
+    { "title": "Santa Monica Elks 906", 
+    "date": "1952","creator": null,"subject": "Matchcovers; Fraternal organizations; Fraternal lodges;","location": "Santa Monica (Calif.);", "cdm": "100",  "id": "wienberg100" } }, 
+    { "type":"Feature", "geometry":{ "type":"Point", "coordinates":[-118.481046,34.032857] }, "properties":
+    { "title": "Ben Blue's", 
+    "date": "1959","creator": null,"subject": "Matchcovers; Eating & drinking facilities; Nightclubs;","location": "Santa Monica (Calif.); Blue, Ben, 1901-1975;", "cdm": "101",  "id": "wienberg101" } }
+    ]};
+
+    /* init map and set zoom */
+    if (window.location.hash) {
+        /* if url has a hash, it is split by comma into coordinates that set the view */
+        var hashfilter = decodeURIComponent(location.hash.substr(1));
+        var latitudeHash = hashfilter.split(',')[0]
+        var longitudeHash = hashfilter.split(',')[1]
+        var map = L.map('map').setView([latitudeHash,longitudeHash],16);
+    } else {
+        var map = L.map('map').setView([34.03,-118.57],9);
+    }
+
+    /* add map layer options */
+    var Esri_WorldStreetMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+    });
+    var Esri_NatGeoWorldMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+        maxZoom: 16
+    });
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+    /* add base map switcher */
+    var baseMaps = {
+        "Esri World StreetMap": Esri_WorldStreetMap,
+        "Esri National Geo": Esri_NatGeoWorldMap,
+        "Esri Imagery": Esri_WorldImagery
+    };
+    L.control.layers(baseMaps).addTo(map);
+    /* load base map */
+    Esri_WorldStreetMap.addTo(map);
+
+    
+    /* add search, https://github.com/naomap/leaflet-fusesearch */
+    var options = {
+        title: 'Search Map Items',
+        placeholder: 'Search map items...',
+        threshold: 0.35 
+    };
+    var searchCtrl = L.control.fuseSearch(options);
+    searchCtrl.addTo(map);
+    searchCtrl.indexFeatures(geodata.features, ["title","date","creator","subject","location"]);
+
+    
+    /* create cluster group */
+    var markers = L.markerClusterGroup({ maxClusterRadius: 15, singleMarkerMode: true , removeOutsideVisibleBounds: false });
+
+    /* object popup function */
+    function objectPopups(feature, layer) {
+        /* bind feature for search */
+        feature.layer = layer;
+        /* create pop up */
+        var itemHref = '/demo/wienberg/items/' + feature.properties.id + '.html';
+        if (feature.properties.youtube) {
+            var thumbSrc = 'https://img.youtube.com/vi/' + feature.properties.youtube + '/0.jpg';
+        } else {
+            var thumbSrc = 'https://cdm15730.contentdm.oclc.org/utils/getthumbnail/collection/p15730coll18/id/' + feature.properties.cdm;
+        }
+        var popupTemplate = '<h4><a class="text-dark" href="' + itemHref + '">' +
+            feature.properties.title + '</a></h4><div class="text-center"><a class="btn btn-light" href="' + itemHref + 
+            '" ><img class="mapthumb" src="' + thumbSrc + '" alt="item thumbnail"></a></div><p class="mt-0">';
+        
+        if (feature.properties.date) {
+            popupTemplate += '<strong>Date:</strong> ' + feature.properties.date + '<br>'; 
+        }
+        
+        if (feature.properties.creator) {
+            popupTemplate += '<strong>Creator:</strong> ' + feature.properties.creator + '<br>'; 
+        }
+        
+        if (feature.properties.subject) {
+            popupTemplate += '<strong>Subjects:</strong> ' + feature.properties.subject + '<br>'; 
+        }
+        
+        if (feature.properties.location) {
+            popupTemplate += '<strong>Location:</strong> ' + feature.properties.location + '<br>'; 
+        }
+        
+        popupTemplate += '</p><div class="text-center"><a class="btn btn-light" href="' + itemHref + '" >View Item</a></div>';
+        layer.bindPopup(popupTemplate);
+    }
+    function objectMarkers(feature,latlng) {
+        var marker = L.marker(latlng);
+        markers.addLayer(marker);
+        return marker;
+    }
+
+    /* add objects from geoJson features */
+    L.geoJson(geodata, {
+        onEachFeature: objectPopups,
+        pointToLayer: objectMarkers
+    });
+    map.addLayer(markers);
+    
+    
+    /* uncluster when search is clicked */
+    document.querySelector('a.button').addEventListener("click", function() {
+        markers.disableClustering();
+    });
+    /* recluster when search is closed */
+    document.querySelector('a.close').addEventListener("click", function() {
+        markers.enableClustering();
+        document.querySelector('input.search-input').value = "";
+    });
+
+})();
+
+</script>
+
+    <style>
+#scroll-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: #191919; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 0px; /* Rounded corners */
+    font-size: 40px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+</style>
+<div id="scroll-to-top" style="display: none;">
+    <a href="javascript:void(0);" onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" title="Back to Top" aria-label="Back to Top">
+       
+         
+          <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+    
+    </a>
+</div>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("scroll-to-top").style.display = "block";
+  } else {
+    document.getElementById("scroll-to-top").style.display = "none";
+  }
+}
+</script>
+  </body>
+</html>
