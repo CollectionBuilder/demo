@@ -1,0 +1,1678 @@
+{
+    "type": "FeatureCollection",
+    "features": [ 
+        
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.675652,34.03561]
+            },            
+            "properties":{
+                "column": "0",
+                "title": "Top O' the Sea",
+                "description": "The Top O' the Sea Cafe was one of the first, if not the first, restaurants opened at the end of the Malibu Pier, occupying one of the twin structures that has characterized the pier's appearance since the 1940s. The restaurant opened in 1950. The matchcover features the Lenbrooke, one of several fishing boats that operated from the pier at the time. The underside of the cover lists pier services.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Malibu Pier, Malibu;",
+                "location": "Malibu (Calif.);Malibu Pier, Malibu;",
+                
+                
+                "latitude": "34.03561",
+                "longitude": "-118.675652",
+                
+                "original format": "match book, 2 x 4.5 inches",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00001.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9486311 Bytes",
+                "height": "2613",
+                "width": "1209",
+                "color space": "RGB",
+                "checksum": "467295273",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/2/page/0/inline/",
+                "compound": "0;1;2",
+                "cpdmaster": "2",
+                "cdmid": "0",
+                "objectid": "wienberg0",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg0.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.84354,34.030701]
+            },            
+            "properties":{
+                "column": "3",
+                "title": "Malibu West",
+                "description": "This matchcover advertises the Malibu West development venture, which produced single family homes and condominiums in the Trancas Canyon area of western Malibu between 1962 and 1964.",
+                "date": "1964",
+                "subject": "Matchcovers; Real estate business; Real estate development;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Trancas Canyon, Malibu;",
+                "location": "Malibu (Calif.);Trancas Canyon, Malibu;",
+                
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.030701",
+                "longitude": "-118.84354",
+                
+                "original format": "Matchbook, 7.5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00003.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "13727210 Bytes",
+                "height": "2613",
+                "width": "1750",
+                "color space": "RGB",
+                "checksum": "311162305",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/5/page/0/inline/",
+                "compound": "3;4;5",
+                "cpdmaster": "5",
+                "cdmid": "3",
+                "objectid": "wienberg3",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg3.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.674341,34.038099]
+            },            
+            "properties":{
+                "column": "6",
+                "title": "Drift Inn Cafe",
+                "description": "The Drift Inn Cafe had its heyday in the late 1950s and early 1960s, often featuring live jazz music. It was situated at 22878 Pacific Coast Highway, on the beach just east of the Malibu Pier. During the 1960s, the owner renovated the Drift Inn as the Tiki-themed Tonga Lei Restaurant. The building was eventually razed in 1987 to make way for the Malibu Beach Inn.",
+                "date": "1959",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Monarch Match",
+                "latitude": "34.038099",
+                "longitude": "-118.674341",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00005.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7298231 Bytes",
+                "height": "2673",
+                "width": "909",
+                "color space": "RGB",
+                "checksum": "1489805091",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/7/page/0/inline/",
+                "compound": "6;7",
+                "cpdmaster": "7",
+                "cdmid": "6",
+                "objectid": "wienberg6",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg6.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.674299,34.038169]
+            },            
+            "properties":{
+                "column": "8",
+                "title": "Tonga Lei and Ted's Rancho Restaurant",
+                "description": "This matchcover advertises two restaurants: Tonga Lei Polynesian and Ted's Rancho Restaurant, both owned by Danny Vaughn. Located on the beach just east of Topanga Canyon, Ted's Rancho served clientele from the 1940s to the late 1970s. The site is a vacant lot today. In 1961, Vaughn (with co-owner Ted Wynkoop) converted his Drift Inn near the Malibu Pier to the Polynesian-themed Tonga Lei, which remained a popular eatery until it closed in 1987. In the following year, the owners built the Malibu Beach Inn at that location.",
+                "date": "1969",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.); Topanga (Calif.);",
+                "subject - local": "Carbon Beach, Malibu; Topanga Beach, Malibu;",
+                "location": "Malibu (Calif.); Topanga (Calif.);Carbon Beach, Malibu; Topanga Beach, Malibu;",
+                
+                "manufacturer": "Creative Sales Catalysts",
+                "latitude": "34.038169",
+                "longitude": "-118.674299",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00006.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6750500 Bytes",
+                "height": "2613",
+                "width": "860",
+                "color space": "RGB",
+                "checksum": "814100407",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/9/page/0/inline/",
+                "compound": "8;9",
+                "cpdmaster": "9",
+                "cdmid": "8",
+                "objectid": "wienberg8",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg8.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.676986,34.037824]
+            },            
+            "properties":{
+                "column": "10",
+                "title": "Malibu Inn Cafe",
+                "description": "The Malibu Inn, also known as the Malibu Beach Inn, appeared in the 1920s, rising with the popularity of the Malibu Movie Colony. The Malibu Inn was a fixture on Malibu Road behind the Colony until the redirection of the highway forced its move in the early 1950s. This matchbook dates from the early years in its new location across from Malibu Pier at 22969 Pacific Coast Highway. Note it's motto: \"Where the Stars Meet the Sea.\" The reverse side includes pictures of two of the Malibu Inn's \"crunch fried\" dishes: Chicken on a Stick and the Shrimp Boat.",
+                "date": "1953",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.037824",
+                "longitude": "-118.676986",
+                
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00007.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9276200 Bytes",
+                "height": "2663",
+                "width": "1160",
+                "color space": "RGB",
+                "checksum": "1407258682",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/12/page/0/inline/",
+                "compound": "10;11;12",
+                "cpdmaster": "12",
+                "cdmid": "10",
+                "objectid": "wienberg10",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg10.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.676682,34.037134]
+            },            
+            "properties":{
+                "column": "13",
+                "title": "Malibu Sports Club Restaurant",
+                "description": "The Malibu Sports Club Restaurant opened at the foot of the Malibu Pier in the mid 1950s, operating there until it closed in 1969. The Malibu Pier Club and Alice's Restaurant later occupied this spot.",
+                "date": "1958",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Malibu Pier, Malibu;",
+                "location": "Malibu (Calif.);Malibu Pier, Malibu;",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.037134",
+                "longitude": "-118.676682",
+                
+                "original format": "Matchbook, 5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00009.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9206600 Bytes",
+                "height": "2643",
+                "width": "1160",
+                "color space": "RGB",
+                "checksum": "924995758",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/15/page/0/inline/",
+                "compound": "13;14;15",
+                "cpdmaster": "15",
+                "cdmid": "13",
+                "objectid": "wienberg13",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg13.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.666286,34.039325]
+            },            
+            "properties":{
+                "column": "16",
+                "title": "Malibu Outrigger Resort Hotel",
+                "description": "Opened in 1962, the Malibu Outrigger Resort Hotel offered extended stay, beachfront options on Carbon Beach, less than a mile east of Malibu Pier. The site still operates as a condominium complex today. This matchbook probably dates to the early 1970s.",
+                "date": "1970",
+                "subject": "Matchcovers; Hotels; Apartment hotels; Apartments;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.039325",
+                "longitude": "-118.666286",
+                
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00011.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9206600 Bytes",
+                "height": "2643",
+                "width": "1160",
+                "color space": "RGB",
+                "checksum": "804083336",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/18/page/0/inline/",
+                "compound": "16;17;18",
+                "cpdmaster": "18",
+                "cdmid": "16",
+                "objectid": "wienberg16",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg16.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.676986,34.037824]
+            },            
+            "properties":{
+                "column": "19",
+                "title": "The Malibu Inn",
+                "description": "The Malibu Inn, also known as the Malibu Beach Inn, appeared in the 1920s, rising with the popularity of the Malibu Movie Colony. The Malibu Inn was a fixture on Malibu Road behind the Colony until the redirection of the highway forced its move in the early 1950s. This matchbook dates from the early years in its new location across from Malibu Pier at 22969 Pacific Coast Highway.",
+                "date": "1953",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                
+                "latitude": "34.037824",
+                "longitude": "-118.676986",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00013.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7303640 Bytes",
+                "height": "2643",
+                "width": "920",
+                "color space": "RGB",
+                "checksum": "1224980637",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/20/page/0/inline/",
+                "compound": "19;20",
+                "cpdmaster": "20",
+                "cdmid": "19",
+                "objectid": "wienberg19",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg19.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.560627,34.040328]
+            },            
+            "properties":{
+                "column": "21",
+                "title": "Thelma Todd's Inn",
+                "description": "Thelma Todd's Sidewalk Cafe, also marketed as Thelma Todd's Inn, occupied a distinctive Spanish-style building on the Pacific Coast Highway, just west of Sunset Boulevard. Built in 1928, the property was acquired by the film actress Thelma Todd and converted to a cafe in 1934. Her mysterious death in her garage above the Cafe a year later shocked and intrigued the public. After her death, the Cafe continued operating under her name for some years afterward. Thelma Todd's also highlighted its restaurant variously as Joya's Cuisine Unequaled or Steaks of Joya's Unequaled. The building remains on the PCH today, beautifully restored, as the home of Paulist Productions, a Christian film company.",
+                "date": "1937",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Cafes;",
+                "subject - lcsh": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "location": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.040328",
+                "longitude": "-118.560627",
+                
+                "original format": "Matchbook, 3.5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00014.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7133891 Bytes",
+                "height": "2733",
+                "width": "869",
+                "color space": "RGB",
+                "checksum": "4050440147",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/22/page/0/inline/",
+                "compound": "21;22",
+                "cpdmaster": "22",
+                "cdmid": "21",
+                "objectid": "wienberg21",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg21.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.636712,34.03661]
+            },            
+            "properties":{
+                "column": "23",
+                "title": "The Albatross",
+                "description": "The Albatross Hotel stood near the present-day location of Dukes Malibu on the west side of Las Flores Creek on the Pacific Coast Highway. During its heyday in the 1950s and 60s, the establishment enjoyed a notoriety for romantic trysts. This reputation was no doubt reinforced by the film \"Strangers When We Met\" (1960), which shot several scenes in the Albatross. In the film, the hotel is the scene of an affair between the characters played by Kirk Douglass and Kim Novak.",
+                "date": "1958",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Motels; Hotels;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Las Flores Beach, Malibu;",
+                "location": "Malibu (Calif.);Las Flores Beach, Malibu;",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.03661",
+                "longitude": "-118.636712",
+                
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00017.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9348101 Bytes",
+                "height": "2663",
+                "width": "1169",
+                "color space": "RGB",
+                "checksum": "3773672362",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/25/page/0/inline/",
+                "compound": "23;24;25",
+                "cpdmaster": "25",
+                "cdmid": "23",
+                "objectid": "wienberg23",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg23.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.636712,34.03661]
+            },            
+            "properties":{
+                "column": "26",
+                
+                "description": "The Albatross Hotel stood near the present-day location of Dukes Malibu on the west side of Las Flores Creek on the Pacific Coast Highway. During its heyday in the 1950s and 60s, the establishment enjoyed a notoriety for romantic trysts. This reputation was no doubt reinforced by the film \"Strangers When We Met\" (1960), which shot several scenes in the Albatross. In the film, the hotel is the scene of an affair between the characters played by Kirk Douglass and Kim Novak.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Motels; Hotels;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Las Flores Beach, Malibu;",
+                "location": "Malibu (Calif.);Las Flores Beach, Malibu;",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.03661",
+                "longitude": "-118.636712",
+                
+                "original format": "Matchbook, 5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00019.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9348101 Bytes",
+                "height": "2663",
+                "width": "1169",
+                "color space": "RGB",
+                "checksum": "2623075093",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/28/page/0/inline/",
+                "compound": "26;27;28",
+                "cpdmaster": "28",
+                "cdmid": "26",
+                "objectid": "wienberg26",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg26.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.446923,33.990609]
+            },            
+            "properties":{
+                "column": "29",
+                "title": "Copper Kitchen",
+                "description": "The Copper Kitchen stood at the western reach of Culver City at the border with Venice in Los Angeles. The building remains today housing a sports bar. The slogan takes advantage of the cross streets of its location: \"Where Washington and Lincoln meet to dine.\" On the reverse, the map shows the restaurant in relation to Douglas Aircraft (later Santa Monica Airport) and Hughes Aircraft (the Hughes Airport, the private airport of Howard Hughes that was closed in 1985).",
+                "date": "1948",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Culver City (Calif.)",
+                
+                "location": "Culver City (Calif.);",
+                
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "33.990609",
+                "longitude": "-118.446923",
+                
+                "original format": "Matchbook, 7.5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00015.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "14069600 Bytes",
+                "height": "2663",
+                "width": "1760",
+                "color space": "RGB",
+                "checksum": "4002560426",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/31/page/0/inline/",
+                "compound": "29;30;31",
+                "cpdmaster": "31",
+                "cdmid": "29",
+                "objectid": "wienberg29",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg29.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.618624,34.037526]
+            },            
+            "properties":{
+                "column": "32",
+                "title": "Canfield's Big Rock Cafe",
+                "description": "Canfield's Big Rock Cafe occupied the Moonshadows location on the Pacific Coast Highway, between Big Rock Drive and Las Flores Canyon, during the 1950s. It was owned by Harry Canfield, whose Malibu Trading Post Cafe--at the other end of Malibu--burned down in 1949.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Big Rock Beach, Malibu;",
+                "location": "Malibu (Calif.);Big Rock Beach, Malibu;",
+                
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "34.037526",
+                "longitude": "-118.618624",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00021.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7199060 Bytes",
+                "height": "2663",
+                "width": "900",
+                "color space": "RGB",
+                "checksum": "3719872",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/34/page/0/inline/",
+                "compound": "32;33;34",
+                "cpdmaster": "34",
+                "cdmid": "32",
+                "objectid": "wienberg32",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg32.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.618624,34.037526]
+            },            
+            "properties":{
+                "column": "35",
+                
+                "description": "Canfield's Big Rock Cafe occupied the Moonshadows location on the Pacific Coast Highway, between Big Rock Drive and Las Flores Canyon, during the 1950s. It was owned by Harry Canfield, whose Malibu Trading Post Cafe--at the other end of Malibu--burned down in 1949.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Big Rock Beach, Malibu;",
+                "location": "Malibu (Calif.);Big Rock Beach, Malibu;",
+                
+                
+                "latitude": "34.037526",
+                "longitude": "-118.618624",
+                
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00023.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9907331 Bytes",
+                "height": "2663",
+                "width": "1239",
+                "color space": "RGB",
+                "checksum": "4187068406",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/37/page/0/inline/",
+                "compound": "35;36;37",
+                "cpdmaster": "37",
+                "cdmid": "35",
+                "objectid": "wienberg35",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg35.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.843119,34.031179]
+            },            
+            "properties":{
+                "column": "38",
+                "title": "Trancas Restaurant",
+                "description": "The Trancas Restaurant was built in 1949 after the Malibu Trading Post, on the same location, burned down. Today, there is a Starbucks Coffee shop at this location, which is in western Malibu at Trancas Canyon Road on the Pacific Coast Highway. This matchcover is likely from the 1960s.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Trancas Canyon, Malibu;",
+                "location": "Malibu (Calif.);Trancas Canyon, Malibu;",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.031179",
+                "longitude": "-118.843119",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00026.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6951401 Bytes",
+                "height": "2663",
+                "width": "869",
+                "color space": "RGB",
+                "checksum": "1930138839",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/40/page/0/inline/",
+                "compound": "38;39;40",
+                "cpdmaster": "40",
+                "cdmid": "38",
+                "objectid": "wienberg38",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg38.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.495011,34.014511]
+            },            
+            "properties":{
+                "column": "41",
+                "title": "Brownie's",
+                "description": "Brownie's was a cocktail and piano bar located in the outdoor Santa Monica Mall, predecessor to the Third Street Promenade. The address was 1452 The Mall, Santa Monica.",
+                "date": "1967",
+                "subject": "Matchcovers; Eating & drinking facilities; Bars; Nightclubs;",
+                "subject - lcsh": "Santa Monica (Calif.);",
+                
+                "location": "Santa Monica (Calif.);",
+                
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "34.014511",
+                "longitude": "-118.495011",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00028.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7145060 Bytes",
+                "height": "2643",
+                "width": "900",
+                "color space": "RGB",
+                "checksum": "847664148",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/42/page/0/inline/",
+                "compound": "41;42",
+                "cpdmaster": "42",
+                "cdmid": "41",
+                "objectid": "wienberg41",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg41.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.676694,34.037155]
+            },            
+            "properties":{
+                "column": "43",
+                "title": "Alice's Restaurant",
+                "description": "Alice's Restaurant, named after the Arlo Guthrie song, operated at the foot of the Malibu Pier from 1972 to 1995.",
+                "date": "1974",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Piers & wharves;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Malibu Pier, Malibu;",
+                "location": "Malibu (Calif.);Malibu Pier, Malibu;",
+                
+                "manufacturer": "Atlas Match Corp",
+                "latitude": "34.037155",
+                "longitude": "-118.676694",
+                
+                "original format": "Matchbook, 5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00029.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9572801 Bytes",
+                "height": "2573",
+                "width": "1239",
+                "color space": "RGB",
+                "checksum": "2469736027",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/45/page/0/inline/",
+                "compound": "43;44;45",
+                "cpdmaster": "45",
+                "cdmid": "43",
+                "objectid": "wienberg43",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg43.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.501602,34.018147]
+            },            
+            "properties":{
+                "column": "46",
+                "title": "Hotel Miramar International Room Restaurant",
+                "description": "Now the Fairmont Miramar, the Hotel Miramar is one of Santa Monica's oldest hotels. The International Room restaurant was popular in the 1960s and 70s.",
+                "date": "1967",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Hotels;",
+                "subject - lcsh": "Santa Monica (Calif.);",
+                
+                "location": "Santa Monica (Calif.);",
+                
+                "manufacturer": "Diamond National Corp",
+                "latitude": "34.018147",
+                "longitude": "-118.501602",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00031.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6793961 Bytes",
+                "height": "2573",
+                "width": "879",
+                "color space": "RGB",
+                "checksum": "4276611156",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/48/page/0/inline/",
+                "compound": "46;47;48",
+                "cpdmaster": "48",
+                "cdmid": "46",
+                "objectid": "wienberg46",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg46.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.484974,33.995323]
+            },            
+            "properties":{
+                "column": "49",
+                "title": "The Chalet / Fisherman's Cove",
+                "description": "The Chalet may be a brand of ice cream. The reverse side of this matchcover advertises the Fisherman's Cove, which was the primary eatery area of the Pacific Ocean Park (POP) amusement pier in the Ocean Park area of south Santa Monica, California. The POP operated between 1958 and 1967.",
+                "date": "1960",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Ice cream & ices; Piers & wharves; Amusement parks;",
+                "subject - lcsh": "Santa Monica (Calif.);",
+                
+                "location": "Santa Monica (Calif.);",
+                
+                "manufacturer": "Lion Match Co.",
+                "latitude": "33.995323",
+                "longitude": "-118.484974",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00033.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6905300 Bytes",
+                "height": "2673",
+                "width": "860",
+                "color space": "RGB",
+                "checksum": "1430055597",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/51/page/0/inline/",
+                "compound": "49;50;51",
+                "cpdmaster": "51",
+                "cdmid": "49",
+                "objectid": "wienberg49",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg49.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.668478,34.039485]
+            },            
+            "properties":{
+                "column": "55",
+                "title": "Malibu Beach Motor Hotel",
+                "description": "The Malibu Beach Motor Hotel was built in 1941 on the north side of the Pacific Coast Highway about one half mile east of the Malibu Pier. The building, located at 22653 Pacific Coast Highway, is today the offices for a development corporation.",
+                "date": "1947",
+                "subject": "Matchcovers; Motels;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "34.039485",
+                "longitude": "-118.668478",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00039.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7325501 Bytes",
+                "height": "2683",
+                "width": "909",
+                "color space": "RGB",
+                "checksum": "1508591112",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/57/page/0/inline/",
+                "compound": "55;56;57",
+                "cpdmaster": "57",
+                "cdmid": "55",
+                "objectid": "wienberg55",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg55.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.670008,34.039675]
+            },            
+            "properties":{
+                "column": "58",
+                "title": "Frank Kerwin's Seacomber",
+                "description": "Frank Kerwin's Seacomber restaurant stood at 22725 Pacific Coast Highway at the present-day location of McDonalds, east of Malibu Pier. It's heyday was the 1940s, and by the late 1950s St. Aidan's Mission had converted the restaurant's interior into an Episcopal chapel.",
+                "date": "1947",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Diamond Match Co.",
+                "latitude": "34.039675",
+                "longitude": "-118.670008",
+                
+                "original format": "Matchbook, 6.5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00042.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "11691581 Bytes",
+                "height": "2633",
+                "width": "1479",
+                "color space": "RGB",
+                "checksum": "3172483901",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/60/page/0/inline/",
+                "compound": "58;59;60",
+                "cpdmaster": "60",
+                "cdmid": "58",
+                "objectid": "wienberg58",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg58.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.6608,34.039675]
+            },            
+            "properties":{
+                "column": "61",
+                "title": "Malibu Sands Motel",
+                "description": "The Malibu Sands Motel was built in the mid 1950s at 22333 Pacific Coast Highway, about midway between Carbon Canyon and the Malibu Pier. The site today holds a strip mall built off the original design of the motel.",
+                "date": "1957",
+                "subject": "Matchcovers; Motels; Hotels;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.039675",
+                "longitude": "-118.6608",
+                
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00045.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9171800 Bytes",
+                "height": "2633",
+                "width": "1160",
+                "color space": "RGB",
+                "checksum": "1665406821",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/63/page/0/inline/",
+                "compound": "61;62;63",
+                "cpdmaster": "63",
+                "cdmid": "61",
+                "objectid": "wienberg61",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg61.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.576166,34.039711]
+            },            
+            "properties":{
+                "column": "64",
+                "title": "The Point",
+                "description": "The Point was situated at 18412 Pacific Coast Highway, just east of Topanga Canyon Road, during the 1950s and 60s. The Tides Cafe at this location had burned down in 1941 and the Chart House opened here in 1970 (recently changing once again to Mastro's Ocean Club).",
+                "date": "1957",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Topanga (Calif.)",
+                "subject - local": "Topanga Beach, Malibu;",
+                "location": "Topanga (Calif.);Topanga Beach, Malibu;",
+                
+                "manufacturer": "The Diamond Match Co.",
+                "latitude": "34.039711",
+                "longitude": "-118.576166",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00047.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7220840 Bytes",
+                "height": "2613",
+                "width": "920",
+                "color space": "RGB",
+                "checksum": "2099452807",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/66/page/0/inline/",
+                "compound": "64;65;66",
+                "cpdmaster": "66",
+                "cdmid": "64",
+                "objectid": "wienberg64",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg64.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.636132,34.0369]
+            },            
+            "properties":{
+                "column": "67",
+                "title": "Las Flores Inn",
+                "description": "The Las Flores Inn was one of the earliest establishments in the Malibu area, serving as a last stop for travelers before the original Rancho Malibu gates at Las Flores Canyon. Chris Polos purchased the Inn in the mid-1940s, keeping the Inn's famous seal tank. Polos renamed the establishment the Malibu Sea Lion, which went through several iterations on this spot over the ensuing decades--due to either expansion or fire. In 1996, it became Duke's Malibu restaurant.",
+                "date": "1942",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Las Flores Beach, Malibu;",
+                "location": "Malibu (Calif.);Las Flores Beach, Malibu;",
+                
+                "manufacturer": "The Diamond Match Co.",
+                "latitude": "34.0369",
+                "longitude": "-118.636132",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00051.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7145060 Bytes",
+                "height": "2643",
+                "width": "900",
+                "color space": "RGB",
+                "checksum": "2338103994",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/69/page/0/inline/",
+                "compound": "67;68;69",
+                "cpdmaster": "69",
+                "cdmid": "67",
+                "objectid": "wienberg67",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg67.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.52505,34.047186]
+            },            
+            "properties":{
+                "column": "70",
+                "title": "Neeny's",
+                "description": "Neeny's was located 15261 Sunset Blvd in Pacific Palisades to the east of Malibu. It's heyday appears to be in the late 1950s and early 1960s.",
+                "date": "1960",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "location": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "manufacturer": "The Diamond Match Co.",
+                "latitude": "34.047186",
+                "longitude": "-118.52505",
+                
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00057.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6873071 Bytes",
+                "height": "2603",
+                "width": "879",
+                "color space": "RGB",
+                "checksum": "752418635",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/72/page/0/inline/",
+                "compound": "70;71;72",
+                "cpdmaster": "72",
+                "cdmid": "70",
+                "objectid": "wienberg70",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg70.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.527326,34.031226]
+            },            
+            "properties":{
+                "column": "73",
+                "title": "The Lighthouse",
+                "description": "The Lighthouse was a restaurant, cafe, and bath house located at 15100 Roosevelt Highway, later the Pacific Coast Highway, at the foot of the old Long wharf. The Lighthouse, which included a functional beacon, opened in 1927. The building would eventually become lifeguard headquarters before being condemned and demolished in 1972.",
+                "date": "1932",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Lighthouses; Cafes;",
+                "subject - lcsh": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "location": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "manufacturer": "Ohio Match Co.",
+                "latitude": "34.031226",
+                "longitude": "-118.527326",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00059.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7358840 Bytes",
+                "height": "2663",
+                "width": "920",
+                "color space": "RGB",
+                "checksum": "3454338900",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/75/page/0/inline/",
+                "compound": "73;74;75",
+                "cpdmaster": "75",
+                "cdmid": "73",
+                "objectid": "wienberg73",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg73.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.473222,33.98732]
+            },            
+            "properties":{
+                "column": "76",
+                "title": "Harrah's Bambu Hut",
+                "description": "Harrah's Bambu Hut was a Pacific-themed restaurant and bar situated in Venice Beach at 25 Winward Avenue. It's heyday appears to have been the 1950s. An adjacent cocktail room was called the Hide Away.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Venice (Los Angeles, Calif.)",
+                
+                "location": "Venice (Los Angeles, Calif.);",
+                
+                "manufacturer": "Lion Match Inc.",
+                "latitude": "33.98732",
+                "longitude": "-118.473222",
+                
+                "original format": "Matchbook, 4 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00061.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7003541 Bytes",
+                "height": "2683",
+                "width": "869",
+                "color space": "RGB",
+                "checksum": "4039692979",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/78/page/0/inline/",
+                "compound": "76;77;78",
+                "cpdmaster": "78",
+                "cdmid": "76",
+                "objectid": "wienberg76",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg76.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.55546,34.039169]
+            },            
+            "properties":{
+                "column": "79",
+                "title": "Lindomar Lodge",
+                "description": "The Lindomar Lodge Motor Hotel was located near the northwest corner of the Sunset Boulevard-Pacific Coast Highway intersection at 17381 Sunset Boulevard. It was particularly popular during the 1950s. A office complex is situated on this site today.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Hotels; Motels;",
+                "subject - lcsh": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "location": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "manufacturer": "Universal Match Corp.",
+                "latitude": "34.039169",
+                "longitude": "-118.55546",
+                
+                "original format": "Matchbook, 5 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00063.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9313031 Bytes",
+                "height": "2653",
+                "width": "1169",
+                "color space": "RGB",
+                "checksum": "2985437425",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/81/page/0/inline/",
+                "compound": "79;80;81",
+                "cpdmaster": "81",
+                "cdmid": "79",
+                "objectid": "wienberg79",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg79.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.669579,34.038965]
+            },            
+            "properties":{
+                "column": "91",
+                "title": "Malibu Rendezvous",
+                "description": "The Malibu Rendezvous was located just east of Malibu Pier on a spot later occupied by the Windsail restaurant. It is today the site of Nobu. Malibu Rendezvous, opened in 1950, offered French cuisine and seafood through the 1960s.",
+                "date": "1952",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.038965",
+                "longitude": "-118.669579",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 3.5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00025.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6951401 Bytes",
+                "height": "2663",
+                "width": "869",
+                "color space": "RGB",
+                "checksum": "1358953171",
+                "pdflink": "https://cdm15730.contentdm.oclc.org/digital/api/collection/p15730coll18/id/104/page/0/inline/",
+                
+                
+                "cdmid": "91",
+                "objectid": "wienberg91",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg91.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.492899,34.018019]
+            },            
+            "properties":{
+                "column": "92",
+                "title": "Flower Drum Garden",
+                "description": "East Asian cuisine in Santa Monica, probably from the 1970s or 80s.",
+                "date": "1972",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Santa Monica (Calif.);",
+                
+                "location": "Santa Monica (Calif.);",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "34.018019",
+                "longitude": "-118.492899",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00035.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6698900 Bytes",
+                "height": "2593",
+                "width": "860",
+                "color space": "RGB",
+                "checksum": "3573374507",
+                
+                
+                
+                "cdmid": "92",
+                "objectid": "wienberg92",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg92.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.666126,34.039921]
+            },            
+            "properties":{
+                "column": "93",
+                "title": "Sea Esta Lodge",
+                "description": "The Sea Esta Lodge was a motel built in 1947 at 22541 Pacific Coast Highway. The building remains today, housing the Malibu Motel.",
+                "date": "1952",
+                "subject": "Matchcovers; Hotels; Motels;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Carbon Beach, Malibu;",
+                "location": "Malibu (Calif.);Carbon Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.039921",
+                "longitude": "-118.666126",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 5 x 11.5 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00038.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "9058310 Bytes",
+                "height": "2623",
+                "width": "1150",
+                "color space": "RGB",
+                "checksum": "4009378987",
+                
+                
+                
+                "cdmid": "93",
+                "objectid": "wienberg93",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg93.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.637559,34.037342]
+            },            
+            "properties":{
+                "column": "94",
+                "title": "Malibu La Costa Cafe",
+                "description": "The Malibu La Costa Cafe was located next to the arched Malibu Plaza building in eastern Malibu on the Pacific Coast Highway at Rambla Pacifico St. This matchbook likely dates to the 1950s.",
+                "date": "1947",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "La Costa Beach, Malibu;",
+                "location": "Malibu (Calif.);La Costa Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Diamond Match Co.",
+                "latitude": "34.037342",
+                "longitude": "-118.637559",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00041.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7325501 Bytes",
+                "height": "2683",
+                "width": "909",
+                "color space": "RGB",
+                "checksum": "2767474067",
+                
+                
+                
+                "cdmid": "94",
+                "objectid": "wienberg94",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg94.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.637954,34.037439]
+            },            
+            "properties":{
+                "column": "95",
+                "title": "Sale's Market",
+                "description": "Sale's Market served the Topanga and Malibu area in the mid to late 1940s. It was located at 21249 Malibu Road, now Pacific Coast Highway, next to Malibu Plaza in what today is the A & B Hardware building. This match cover further advertises Sale's Markets locations in Beverly Hills, Encino, and Palm Springs.",
+                "date": "1944",
+                "subject": "Matchcovers; Grocery stores;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Las Flores Beach, Malibu; La Costa Beach, Malibu;",
+                "location": "Malibu (Calif.);Las Flores Beach, Malibu; La Costa Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.037439",
+                "longitude": "-118.637954",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00044.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6952181 Bytes",
+                "height": "2633",
+                "width": "879",
+                "color space": "RGB",
+                "checksum": "3056632689",
+                
+                
+                
+                "cdmid": "95",
+                "objectid": "wienberg95",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg95.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.576166,34.039711]
+            },            
+            "properties":{
+                "column": "96",
+                "title": "The Point",
+                "description": "The Point was situated at 18412 Pacific Coast Highway, just east of Topanga Canyon Road, during the 1950s and 60s. The Tides Cafe at this location had burned down in 1941 and the Chart House opened here in 1970 (recently changing once again to Mastro's Ocean Club).",
+                "date": "1962",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants",
+                "subject - lcsh": "Topanga (Calif.)",
+                "subject - local": "Topanga Beach, Malibu;",
+                "location": "Topanga (Calif.);Topanga Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.039711",
+                "longitude": "-118.576166",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00049.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6827900 Bytes",
+                "height": "2643",
+                "width": "860",
+                "color space": "RGB",
+                "checksum": "1973646076",
+                
+                
+                
+                "cdmid": "96",
+                "objectid": "wienberg96",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg96.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.637605,34.037375]
+            },            
+            "properties":{
+                "column": "97",
+                "title": "The Country Store",
+                "description": "Built in about 1940, the Country Store was an addition to the Malibu Plaza, the first commercial venture in Malibu just inside the border of the old Rancho Malibu. The Country Kitchen is on this site now, and this matchbook probably dates to the late 1960s.",
+                "date": "1968",
+                "subject": "Matchcovers; Grocery stores;",
+                "subject - lcsh": "Malibu (Calif.)",
+                "subject - local": "Las Flores Beach, Malibu; La Costa Beach, Malibu;",
+                "location": "Malibu (Calif.);Las Flores Beach, Malibu; La Costa Beach, Malibu;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Diamond Match Division",
+                "latitude": "34.037375",
+                "longitude": "-118.637605",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00050.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6827900 Bytes",
+                "height": "2643",
+                "width": "860",
+                "color space": "RGB",
+                "checksum": "2655009376",
+                
+                
+                
+                "cdmid": "97",
+                "objectid": "wienberg97",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg97.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.54554,34.040232]
+            },            
+            "properties":{
+                "column": "98",
+                "title": "Bel Air Bay Club",
+                "description": "Dating to 1927, the Bel Air Bay Club is located in Pacific Palisades, just east of Malibu, with facilities on either side of the Pacific Coast Highway near Sunset Boulevard. The country club and restaurant were popular with celebrities during the 1920s-40s, and is today a popular location for weddings and special events.",
+                "date": "1942",
+                "subject": "Matchcovers; Eating & drinking facilities; Restaurants; Country clubs;",
+                "subject - lcsh": "Pacific Palisades (Los Angeles, Calif.);",
+                
+                "location": "Pacific Palisades (Los Angeles, Calif.);",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Lion Match Co.",
+                "latitude": "34.040232",
+                "longitude": "-118.54554",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00053.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6794981 Bytes",
+                "height": "2603",
+                "width": "869",
+                "color space": "RGB",
+                "checksum": "915852072",
+                
+                
+                
+                "cdmid": "98",
+                "objectid": "wienberg98",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg98.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.482115,34.032593]
+            },            
+            "properties":{
+                "column": "100",
+                "title": "Santa Monica Elks 906",
+                "description": "This matchbook cover advertises the Benevolent and Protective Order of Elks (B.P.O.E), or the Elks Lodge, number 906 in Santa Monica, California. The cover includes a picture of their club house at 2105 Wilshire Boulevard, which opened in 1949 and lasted at this location at least through the 1970s. The Elks are a service-oriented fraternal organization.",
+                "date": "1952",
+                "subject": "Matchcovers; Fraternal organizations; Fraternal lodges;",
+                "subject - lcsh": "Santa Monica (Calif.);",
+                
+                "location": "Santa Monica (Calif.);",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Universal Match Corp",
+                "latitude": "34.032593",
+                "longitude": "-118.482115",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00055.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "6899441 Bytes",
+                "height": "2613",
+                "width": "879",
+                "color space": "RGB",
+                "checksum": "3445646143",
+                
+                
+                
+                "cdmid": "100",
+                "objectid": "wienberg100",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg100.html"
+            }
+        }, 
+        {
+            "type":"Feature",
+            "geometry":{
+                "type":"Point",
+                "coordinates":[-118.481046,34.032857]
+            },            
+            "properties":{
+                "column": "101",
+                "title": "Ben Blue's",
+                "description": "Ben Blue' nightclub was opened by the actor and comedian Ben Blue in Santa Monica in 1957. The club was very popular with Hollywood's elite before closing a few years later in 1962. Blue is pictured on the matchcover.",
+                "date": "1959",
+                "subject": "Matchcovers; Eating & drinking facilities; Nightclubs;",
+                "subject - lcsh": "Santa Monica (Calif.); Blue, Ben, 1901-1975",
+                
+                "location": "Santa Monica (Calif.); Blue, Ben, 1901-1975;",
+                "collecting area": "Malibu Historical Collection;",
+                "manufacturer": "Monarch Match Co.",
+                "latitude": "34.032857",
+                "longitude": "-118.481046",
+                "archival source": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Ephemera 0129: http://www.oac.cdlib.org/findaid/ark:/13030/c8w95gpb",
+                "original format": "Matchbook, 4 x 11 centimeters",
+                "type": "image",
+                "format": "image/jp2",
+                "identifier": "match00056.tif",
+                "rights": "Copyright to materials in this collection, in most cases, is retained by Pepperdine University. Materials are intended for educational and research use, and may be used for non-commercial purposes with appropriate attribution. Organizations and individuals seeking to use materials for publication must assume all responsibility for identifying and satisfying any claimants of copyright. Such parties should contact Pepperdine University Special Collections and University Archives.",
+                "provenance": "Collected and donated by Eric Wienberg",
+                "publisher": "Pepperdine University Libraries",
+                "credit line": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables [digital resource], Pepperdine University Special Collections and University Archives",
+                "digital collection": "Eric Wienberg Collection of Malibu Matchbooks, Postcards, and Collectables",
+                "mediatype": "matchbook",
+                "file size": "7253060 Bytes",
+                "height": "2683",
+                "width": "900",
+                "color space": "RGB",
+                "checksum": "3632894464",
+                
+                
+                
+                "cdmid": "101",
+                "objectid": "wienberg101",
+                
+                "reference_url": "https://collectionbuilder.github.io/demo/wienberg/items/wienberg101.html"
+            }
+        }
+    ]
+}
