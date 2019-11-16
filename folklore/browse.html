@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Browse | Demo - Library History</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://collectionbuilder.github.io/demo/folklore/favicon.ico">
+<meta http-equiv="Content-Language" content="en-us" >
+<meta name="description" content="A CollectionBuilder-CONTENTdm demo for the Folklore Collection">
+<meta name="author" content="State Library of North Carolina Digital Collections" >
+
+<!-- Open Graph meta -->
+<meta property="og:title" content="Browse | Demo - Library History" />
+<meta property="og:description" content="A CollectionBuilder-CONTENTdm demo for the Folklore Collection" />
+<meta property="og:site_name" content="Demo - Library History" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://digital.ncdcr.gov/ui/custom/default/collection/default/resources/custompages/home/images/State_Parks_Mount_Morrow_entrance_banner.jpg" />
+<meta property="og:image:alt" content="" />
+<meta property="og:url" content="https://collectionbuilder.github.io/demo/folklore/browse.html" />
+<meta property="og:locale" content="en_US" />
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebPage","headline":"Browse | Demo - Library History","publisher":"State Library of North Carolina Digital Collections","description":"A CollectionBuilder-CONTENTdm demo for the Folklore Collection","image":"http://digital.ncdcr.gov/ui/custom/default/collection/default/resources/custompages/home/images/State_Parks_Mount_Morrow_entrance_banner.jpg","url":"https://collectionbuilder.github.io/demo/folklore/browse.html"}</script> 
+
+
+
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/folklore/assets/lib/bootstrap.min.css" type="text/css">
+<script defer src="https://collectionbuilder.github.io/demo/folklore/assets/lib/fontawesome-free/js/all.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://collectionbuilder.github.io/demo/folklore/assets/css/custom.css" type="text/css">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Last build date: 2019-11-15 -->
+
+
+<meta name="robots" content="noindex">
+
+  </head>
+  <body>
+    <div class="container">
+    <div class="row align-items-center">
+        <div id="title" class="col-md-9">
+            <h1><a class="text-dark" href="/demo/folklore/" >Demo - Library History</a></h1>	 
+            <p>Demo Collection from the State Library of North Carolina Digital Collections</p>
+        </div>
+        <div class="col-md-3 d-none d-md-block text-right">
+            <a class="btn btn-outline-light" href="http://digital.ncdcr.gov/" target="_blank" rel="noopener">
+                <img class="img-fluid" src="http://digital.ncdcr.gov/ui/custom/default/collection/default/resources/custompages/home/images/slnc-logo.png" title="State Library of North Carolina Digital Collections" alt="State Library of North Carolina Digital Collections logo" >
+            </a>
+        </div>
+    </div>
+</div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-nav" aria-controls="page-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="d-md-none col-8">
+            <a class="p-1" href="http://digital.ncdcr.gov/" target="_blank" rel="noopener">
+                <img class="img-fluid" id="mobile-nav-image" src="http://digital.ncdcr.gov/ui/custom/default/collection/default/resources/custompages/home/images/slnc-logo.png" title="State Library of North Carolina Digital Collections" alt="State Library of North Carolina Digital Collections logo" >
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="page-nav">
+            <ul class="navbar-nav mr-auto">
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/folklore/">Home</a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="nav-link mt-1" href="/demo/folklore/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/folklore/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/folklore/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/folklore/data/">Data</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="/demo/folklore/about.html">About</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link mt-1" href="http://cdm16062.contentdm.oclc.org//cdm/search/collection/p16062coll43/" target="_blank">Database</a>
+                </li>
+            </ul>
+            <script>
+    function cdm_search() {
+        var query = document.getElementById("nav-search").value;
+        window.open("http://cdm16062.contentdm.oclc.org//digital/collection/p16062coll43/search/searchterm/" + encodeURI(query), "_blank" );
+    }
+</script>
+<form class="form-inline my-2 my-lg-0" role="search" id="search" onsubmit="cdm_search(); return false;">
+    <input id="nav-search" class="form-control mr-sm-2 col-sm-9" type="text" placeholder="Search" aria-label="Search">
+    <button class="btn btn-primary my-2 my-sm-0" type="submit">
+        <svg viewBox="0 0 512 512" class="nav-search-icon" height="1em" width="1em"><path fill="#fff" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+        <span class="sr-only">Search Objects</span>
+    </button>
+</form>
+        </div>
+    </div>    
+</nav>
+
+    <main role="main">
+      <div class="container mt-4">
+  
+
+<h2 id="browse-items">Browse Items</h2>
+
+
+<div class="row mb-3 justify-content-center">
+    <div class="col-md-8 text-center">
+        <div class="input-group input-group-lg">
+            <input type="text" class="form-control form-control-lg" id="quickSearch" placeholder="Filter ... " > 
+            <div class="input-group-append">
+                <button class="btn btn-success" type="button" title="Search" alt="Search" id="goButton" >Search</button>
+                <a class="btn btn-outline-secondary filter" href="#" data-filter="">Reset</a>
+            </div>
+        </div>
+        <span class="info2 h2"><span id="numberOf">134</span> of 134 items</span>
+    </div>
+</div>
+
+<div id="loading" class="text-center">
+    <div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>
+</div>
+
+<div class="row" id="browseItems"></div>
+
+</div>
+    </main>
+    <footer class="bg-dark pt-4 container-fluid mt-3">
+
+    <div class="row border-bottom border-white pb-4 mb-2">
+
+        <div class="col-md-7  px-4 mt-2">
+
+            <h4><a href="https://collectionbuilder.github.io/demo/folklore/" class="text-white">Demo - Library History</a></h4>
+            <p class="text-white"><small>A CollectionBuilder-CONTENTdm demo for the Folklore Collection</small></p>
+            <ul class="nav nav-pills ">
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/browse.html">Browse</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/subjects.html">Subjects</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/timeline.html">Timeline</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/data/">Data</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/demo/folklore/about.html">About</a>
+                </li>
+                
+            </ul>
+
+        </div>
+
+        <div class="col-md-5 mt-2 text-right">
+
+            <p class="text-right">
+                <a href="http://digital.ncdcr.gov/" target="_blank" rel="noopener">
+                    <img class="img-fluid" src="http://digital.ncdcr.gov/ui/custom/default/collection/default/resources/custompages/home/images/slnc-logo.png" alt="State Library of North Carolina Digital Collections logo">
+                </a>
+            </p>
+            <p class="text-white" id="footer-credits">
+                <small><em>built with</em>
+                    <a href="https://collectionbuilder.github.io/" target="_blank" rel="noopener" title="CollectionBuilder">
+                        <img src="/demo/folklore/assets/img/collectionbuilder-logo.png" class="img-fluid" alt="CollectionBuilder logo" >
+                    </a>
+                </small>
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center pt-3 pb-1">
+        <p class="text-white">Last updated 2019</p>
+    </div>
+
+</footer>
+    <!-- Optional JS for Bootstrap: jQuery first, then Bootstrap bundle JS -->
+<script src="https://collectionbuilder.github.io/demo/folklore/assets/lib/jquery-3.4.1.min.js"></script>
+<script src="https://collectionbuilder.github.io/demo/folklore/assets/lib/bootstrap.bundle.min.js"></script>
+<!-- load other js -->
+<script src="https://collectionbuilder.github.io/demo/folklore/assets/lib/lazysizes.min.js" async></script>
+
+<script>
+
+function makeCard(obj) {
+    // find item link
+    var itemHref = "/demo/folklore/items/" + obj.id + ".html";
+    // find images
+    if(obj.youtube) {
+      var imgSrc = 'https://img.youtube.com/vi/' + obj.youtube + '/mqdefault.jpg';
+    } else if(obj.format.includes('image')) { 
+      var imgSrc = 'http://cdm16062.contentdm.oclc.org//digital/iiif/p16062coll43/' + obj.cdm + '/full/pct:30/0/default.jpg';
+    } else {
+      var thumbSrc = 'http://cdm16062.contentdm.oclc.org//utils/getthumbnail/collection/p16062coll43/id/' + obj.cdm;
+    }
+    // start card
+    var card = '<div class="item col-lg-4 col-md-6 col-sm-12 mb-2"><div class="card">';
+    // top image for photos
+    if(imgSrc) {
+      card += '<a target="_blank" href="' + itemHref + '"> <img class="card-img-top lazyload" data-src="' + imgSrc + '" alt="Image of ' + obj.title + '"></a>';
+    }
+    // title
+    card += '<div class="card-body text-center"> <h3 class="card-title"><a target="_blank" href="' + itemHref + '" class="text-dark">' + obj.title + '</a></h3>';
+    // thumb for non-photo items
+    if(thumbSrc){
+      card += '<p><a target="_blank" href="' + itemHref + '"><img class="lazyload" data-src="' + thumbSrc + '" alt="Image of ' + obj.title + '"></a></p>';
+    }
+    // other fields
+    card += '<p class="card-text">';
+    
+    if(obj["creator"]){
+    card += '<strong>Creator:</strong> ';
+    
+    card += obj["creator"];
+    
+    card += '<br>';
+    }
+    
+    if(obj["date"]){
+    card += '<strong>Date:</strong> ';
+    
+    card += obj["date"];
+    
+    card += '<br>';
+    }
+    
+    if(obj["location"]){
+    
+    
+    var btns = obj["location"].split(";");
+    for (var i = 0, len = btns.length; i < len; i++) {
+      if(btns[i] != "") {
+        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="/demo/folklore/browse.html#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+      }
+    }
+    
+    card += '<br>';
+    }
+    
+    if(obj["subject"]){
+    
+    
+    var btns = obj["subject"].split(";");
+    for (var i = 0, len = btns.length; i < len; i++) {
+      if(btns[i] != "") {
+        card += '<a class="btn btn-sm btn-secondary m-1 text-wrap" href="/demo/folklore/browse.html#' + encodeURIComponent(btns[i].trim()) + '">' + btns[i].trim() + '</a>';
+      }
+    }
+    
+    card += '<br>';
+    }
+    
+    if(obj[null]){
+    
+    
+    card += obj[null];
+    
+    
+    }
+    
+    card += '</p>';
+    // media type
+    if(obj.format != "") {
+      card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="/demo/folklore/browse.html#' + encodeURIComponent(obj.format) + '">' + 
+        obj.format.split("/").pop().toUpperCase() + ' <span class="';
+      if(obj.format.includes('image')){
+        card += 'far fa-image';
+      } else if(obj.format.includes('audio')){
+        card += 'far fa-file-audio';
+      } else if(obj.format.includes('video')){
+        card += 'far fa-file-video';
+      } else {
+        card += 'far fa-file';
+      }
+      card += '"></span></a></small></p>';
+    }
+    // view button
+    card += '<hr><a href="' + itemHref + '" class="btn btn-sm btn-light text-primary" title="link to ' + obj.title + '">View Full Record</a>';
+    // close divs
+    card += '</div></div></div>';
+    // send back big string
+    return card;
+  }
+
+  /* Fisher-Yates shuffle https://bost.ocks.org/mike/shuffle/ */
+  function shuffle(array) {
+    var m = array.length, t, i;
+    while (m) {
+    i = Math.floor(Math.random() * m--);
+    t = array[m];
+    array[m] = array[i];
+    array[i] = t;
+    }
+    return array;
+  }
+
+  /* add items */
+  var items = [
+    
+    { "title":"North Carolina folklore [3.1 July 1955]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1955-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Third volume (number 1) of the North Carolina folklore journal, issued in July 1955. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"39", "id":"folklore39" },
+    { "title":"North Carolina folklore [3.2 December 1955]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1955-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Shakers;Superstition","format original":"Periodicals","description":"Third volume (number 2) of the North Carolina folklore journal, issued in December 1955. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"87", "id":"folklore87" },
+    { "title":"North Carolina folklore [5.2 December 1957]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1957-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Epitaphs;Gravestones","format original":"Periodicals","description":"Fifth volume (number 2) of the North Carolina folklore journal, issued in December 1957. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"123", "id":"folklore123" },
+    { "title":"North Carolina folklore [6.2 December 1958]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1958-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Lighthouses--North Carolina--Neuse River;Lighthouse keepers--North Carolina--Neuse River;Traditional medicine;Highland games","format original":"Periodicals","description":"Sixth volume (number 2) of the North Carolina folklore journal, issued in December 1958. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"167", "id":"folklore167" },
+    { "title":"North Carolina folklore [6.1 July 1958]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1958-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Sixth volume (number 1) of the North Carolina folklore journal, issued in July 1958. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"199", "id":"folklore199" },
+    { "title":"North Carolina folklore [4.2 December 1956]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1956-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina--Geography","format original":"Periodicals","description":"Fourth volume (number 2) of the North Carolina folklore journal, issued in December 1956. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"234", "id":"folklore234" },
+    { "title":"North Carolina folklore [2.1 September 1954]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1954-09","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Games","format original":"Periodicals","description":"Second volume (number 1) of the North Carolina folklore journal, issued in September 1954. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"282", "id":"folklore282" },
+    { "title":"North Carolina folklore [4.1 July 1956]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1956-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Quilting--North Carolina--Moore County","format original":"Periodicals","description":"Fourth volume (number 1) of the North Carolina folklore journal, issued in July 1956. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"321", "id":"folklore321" },
+    { "title":"North Carolina folklore [5.1 July 1957]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1957-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Pottery;Weather;Almanacs;Blum, John Christian, 1784-1854;Folklore","format original":"Periodicals","description":"Fifth volume (number 1) of the North Carolina folklore journal, issued in July 1957. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"353", "id":"folklore353" },
+    { "title":"North Carolina folklore [1.1 June 1948]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1948-06","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"First volume (number 1) of the North Carolina folklore journal, beginning in July 1948. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"389", "id":"folklore389" },
+    { "title":"North Carolina folklore [9.2 December 1961]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1961-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folk songs;Cotton manufacture","format original":"Periodicals","description":"Volume 9 (number 2) of the North Carolina folklore journal, issued in December 1961. Volume published in Chapel Hill, North Carolina.",  "cdm":"437", "id":"folklore437" },
+    { "title":"North Carolina folklore [8.2 December 1960]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1960-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina--History--Colonial period, ca. 1600-1775;Traditional medicine;Lawson, John, 1674-1712;Ballads;Whitley, Alexander (Alec), 1861-1892;Lynching;Stanly County (N.C.);Superstition; Food habits","format original":"Periodicals","description":"Eighth volume (number 2) of the North Carolina folklore journal, issued in December 1960. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"491", "id":"folklore491" },
+    { "title":"North Carolina folklore [12.1 July 1964]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1964-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Medicine, Rural","format original":"Periodicals","description":"Volume 12 (number 1) of the North Carolina folklore journal, issued in July 1964. Volume published in Chapel Hill, North Carolina.",  "cdm":"527", "id":"folklore527" },
+    { "title":"North Carolina folklore [11.2 December 1963]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1963-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society--History","format original":"Periodicals","description":"Volume 11 (number 2) of the North Carolina folklore journal, issued in December 1963. Volume published in Chapel Hill, North Carolina.",  "cdm":"559", "id":"folklore559" },
+    { "title":"North Carolina folklore [10.2 December 1962]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1962-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Christmas--North Carolina--Rodanthe;Tobacco--History;Silver, Frances L. (Frankie), d. 1833;Marriage--Anecdotes;Tobacco--Folklore","format original":"Periodicals","description":"Volume 10 (number 2) of the North Carolina folklore journal, issued in December 1962. Volume published in Chapel Hill, North Carolina.",  "cdm":"599", "id":"folklore599" },
+    { "title":"North Carolina folklore [11.1 July 1963]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1963-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Quakers--North Carolina--Northampton County;Folk tales;Rutherford County (N.C.);Logging","format original":"Periodicals","description":"Volume 11 (number 1) of the North Carolina folklore journal, issued in July 1963. Volume published in Chapel Hill, North Carolina.",  "cdm":"639", "id":"folklore639" },
+    { "title":"North Carolina folklore [9.1 July 1961]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1961-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;African American oral tradition--North Carolina;Oral history--North Carolina;Chapel Hill (N.C.);Colloquial language","format original":"Periodicals","description":"Volume 9 (number 1) of the North Carolina folklore journal, issued in July 1961. Volume published in Chapel Hill, North Carolina.",  "cdm":"703", "id":"folklore703" },
+    { "title":"North Carolina folklore [12.2 December 1964]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1964-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Loray Mill Strike, 1929;Gastonia (N.C.);Folk songs;Folk music;Potato industry","format original":"Periodicals","description":"Volume 12 (number 2) of the North Carolina folklore journal, issued in December 1964. Volume published in Chapel Hill, North Carolina.",  "cdm":"747", "id":"folklore747" },
+    { "title":"North Carolina folklore [7.1 July 1959]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1959-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Seventh volume (number 1) of the North Carolina folklore journal, issued in July 1959. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"787", "id":"folklore787" },
+    { "title":"North Carolina folklore [10.1 July 1962]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1962-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Christmas--North Carolina--Rodanthe;Tobacco--History","format original":"Periodicals","description":"Volume 10 (number 1) of the North Carolina folklore journal, issued in July 1962. Volume published in Chapel Hill, North Carolina.",  "cdm":"851", "id":"folklore851" },
+    { "title":"North Carolina folklore [9.3 December 1961]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1961-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Ninth volume (number 3) of the North Carolina folklore journal, issued in December 1961. This issue indexes vols. 1 - 8. Volume published in Chapel Hill, North Carolina.",  "cdm":"917", "id":"folklore917" },
+    { "title":"North Carolina folklore [7.2 December 1959]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1959-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Carteret County (N.C.);Witchcraft","format original":"Periodicals","description":"Seventh volume (number 2) of the North Carolina folklore journal, issued in December 1959. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"953", "id":"folklore953" },
+    { "title":"North Carolina folklore [8.1 July 1960]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1960-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Valdese (N.C.);Coasts--North Carolina;Chimney Rock Village (N.C.);Ghost stories;Haunted houses","format original":"Periodicals","description":"Eighth volume (number 1) of the North Carolina folklore journal, issued in July 1960. The publication was suspended from July 1948 until Aug. 1954 and from Oct. 1954-June 1955. Volume published in Chapel Hill, North Carolina.",  "cdm":"987", "id":"folklore987" },
+    { "title":"North Carolina folklore [14.1 July 1966]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1966-07","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Superstition","format original":"Periodicals","description":"Volume 14 (number 1) of the North Carolina folklore journal, issued in July 1966. Volume published in Chapel Hill, North Carolina.",  "cdm":"1033", "id":"folklore1033" },
+    { "title":"North Carolina folklore [17.2 November 1969]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1969-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals; Brickell, John, 1710?-1745;Traditional medicine;Tales--North Carolina;Tales--Africa;Hunting--North Carolina--Cape Fear River;Fishing--North Carolina--Cape Fear River; Folk tales","format original":"Periodicals","description":"Volume 17 (number 2) of the North Carolina folklore journal, issued in November 1969. Volume published in Chapel Hill, North Carolina.",  "cdm":"1109", "id":"folklore1109" },
+    { "title":"North Carolina folklore [18.3 November 1970]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1970-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Irish--North Carolina--Folklore;African Americans--Folklore;Almanacs;Patent medicines;Legislation","format original":"Periodicals","description":"Volume 18 (number 3) of the North Carolina folklore journal, issued in November 1970. Volume published in Chapel Hill, North Carolina.",  "cdm":"1161", "id":"folklore1161" },
+    { "title":"North Carolina folklore [16.3 November 1968]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1968-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine;Children--Folklore","format original":"Periodicals","description":"Volume 16 (number 3) of the North Carolina folklore journal, issued in November 1968. Volume published in Chapel Hill, North Carolina.",  "cdm":"1213", "id":"folklore1213" },
+    { "title":"North Carolina folklore [19.3 May 1971]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1971-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Tobacco","format original":"Periodicals","description":"Volume 19 (number 3) of the North Carolina folklore journal, issued in May 1971. Volume published in Chapel Hill, North Carolina.",  "cdm":"1257", "id":"folklore1257" },
+    { "title":"North Carolina folklore [13.1-2 Special Issue 1965]", "format":"application/pdf", "creator":"University of North Carolina at Chapel Hill. Folklore Council.","date":"1965","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine;Newspapers--North Carolina--Raleigh;Newspapers--19th century;Folk songs;Spirituals (Songs);Shakers;Folklore","format original":"Periodicals","description":"Volume 13 (special issue: Folklore Studies in Honor of Arthur Palmer Hudson), in 1965. Volume published in Chapel Hill, North Carolina.",  "cdm":"1418", "id":"folklore1418" },
+    { "title":"North Carolina folklore [19.1 January 1971]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1971-01","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Edgecombe County (N.C.);Forsyth County (N.C.);Ghost stories","format original":"Periodicals","description":"Volume 19 (number 1) of the North Carolina folklore journal, issued in January 1971. Volume published in Chapel Hill, North Carolina.",  "cdm":"1454", "id":"folklore1454" },
+    { "title":"North Carolina folklore [17.1 May 1969]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1969-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Newspaper editors;Idioms;Agriculture--North Carolina;Coastal plains--North Carolina;Tobacco--Folklore","format original":"Periodicals","description":"Volume 17 (number 1) of the North Carolina folklore journal, issued in May 1969. Volume published in Chapel Hill, North Carolina.",  "cdm":"1510", "id":"folklore1510" },
+    { "title":"North Carolina folklore [18.2 May 1970]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1970-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Newspapers--North Carolina--Charlotte;Critus, Jemmy; Humor; Humor in literature","format original":"Periodicals","description":"Volume 18 (number 2) of the North Carolina folklore journal, issued in May 1970. Volume published in Chapel Hill, North Carolina.",  "cdm":"1558", "id":"folklore1558" },
+    { "title":"North Carolina folklore [15.2 November 1967]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1967-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Chesnutt, Charles W. (Charles Waddell), 1858-1932;Folklore--North Carolina;Folk songs;Folk tales","format original":"Periodicals","description":"Volume 15 (number 2) of the North Carolina folklore journal, issued in November 1967. Volume published in Chapel Hill, North Carolina. Cover image: Illustration by Bill Ballard.",  "cdm":"1598", "id":"folklore1598" },
+    { "title":"North Carolina folklore [15.1 May 1967]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1967-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Methodism--History; Traditional medicine; Distilling, Illicit--North Carolina;Witchcraft-North Carolina--Henderson County","format original":"Periodicals","description":"Volume 15 (number 1) of the North Carolina folklore journal, issued in May 1967. Volume published in Chapel Hill, North Carolina.",  "cdm":"1642", "id":"folklore1642" },
+    { "title":"North Carolina folklore [19.2 March 1971]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1971-03","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Novelists--North Carolina;Pierce, Ovid Williams;Walser, Richard Gaither, 1908-1988","format original":"Periodicals","description":"Volume 19 (number 2) of the North Carolina folklore journal, issued in March 1971. Volume published in Chapel Hill, North Carolina.",  "cdm":"1710", "id":"folklore1710" },
+    { "title":"North Carolina folklore [14.2 November 1966]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1966-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Tobacco--Folklore; Moravians--North Carolina-- Winston-Salem;Dulcimer; English language--Dialects--Appalachian Region","format original":"Periodicals","description":"Volume 14 (number 2) of the North Carolina folklore journal, issued in November 1966. Volume published in Chapel Hill, North Carolina.",  "cdm":"1758", "id":"folklore1758" },
+    { "title":"North Carolina folklore [16.1 May 1968]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1968-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;African Americans--Folklore","format original":"Periodicals","description":"Volume 16 (number 1) of the North Carolina folklore journal, issued in May 1968. Volume published in Chapel Hill, North Carolina.",  "cdm":"1826", "id":"folklore1826" },
+    { "title":"North Carolina folklore [18.1 January 1970]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1970-01","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Superstition--North Carolina;Popular culture--North Carolina","format original":"Periodicals","description":"Volume 18 (number 1) of the North Carolina folklore journal, issued in January 1970. Volume published in Chapel Hill, North Carolina.",  "cdm":"1898", "id":"folklore1898" },
+    { "title":"North Carolina folklore [16.2 October 1968]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1968-10","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folk songs;African Americans--Folklore","format original":"Periodicals","description":"Volume 16 (number 2) of the North Carolina folklore journal, issued in October 1968. Volume published in Chapel Hill, North Carolina.",  "cdm":"1978", "id":"folklore1978" },
+    { "title":"North Carolina folklore [19.4 November 1971]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1971-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Christmas-North Carolina--Rodanthe;Shells;Signs and symbols--North Carolina;Superstition--Religious aspects;Ballads","format original":"Periodicals","description":"Volume 19 (number 4) of the North Carolina folklore journal, issued in November 1971. Volume published in Chapel Hill, North Carolina.",  "cdm":"2046", "id":"folklore2046" },
+    { "title":"North Carolina folklore journal [21.4 November 1973]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1973-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine","format original":"Periodicals","description":"Volume 21 (number 4) of the North Carolina folklore journal, issued in November 1973. Published in Raleigh, North Carolina.",  "cdm":"2090", "id":"folklore2090" },
+    { "title":"North Carolina folklore journal [22.1 February 1974]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1974-02","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Agriculture;Superstition","format original":"Periodicals","description":"Volume 22 (number 1) of the North Carolina folklore journal, issued in February 1974. Published in Raleigh, North Carolina. Cover Image: Photo: William E. Holloman.",  "cdm":"2126", "id":"folklore2126" },
+    { "title":"North Carolina folklore [20.1 February 1972]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1972-02","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Legends--North Carolina--Chatham County;Brick trade--North Carolina--Winston-Salem;Traditional medicine","format original":"Periodicals","description":"Volume 20 (number 1) of the North Carolina folklore journal, issued in February 1972. Volume published in Chapel Hill, North Carolina.",  "cdm":"2191", "id":"folklore2191" },
+    { "title":"North Carolina folklore journal [21.3 September 1973]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1973-09","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folk songs--North Carolina--Scotland County;Christmas;Cherokee Indians--North Carolina--Mythology;Myths","format original":"Periodicals","description":"Volume 21 (number 3) of the North Carolina folklore journal, issued in September 1973. Published in Raleigh, North Carolina.",  "cdm":"2271", "id":"folklore2271" },
+    { "title":"North Carolina folklore journal [21.2 May 1973]", "format":"http://cdm16062.contentdm.oclc.org/cdm/ref/collection/p16062coll43/id/2311", "creator":"North Carolina Folklore Society.","date":"1973-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Legends--North Carolina--Rocky Point (Pender County);Ghosts","description":"Volume 21 (number 2) of the North Carolina folklore journal, issued in May 1973. Volume published in Chapel Hill, North Carolina.",  "cdm":"2311", "id":"folklore2311" },
+    { "title":"North Carolina folklore [20.2 May 1972]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1972-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Green, Paul Eliot, 1894-1981;Poets","format original":"Periodicals","description":"Volume 20 (number 2) of the North Carolina folklore journal, issued in May 1972. Volume published in Chapel Hill, North Carolina.",  "cdm":"2350", "id":"folklore2350" },
+    { "title":"North Carolina folklore [20.3 August 1972]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1972-08","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklore--North Carolina--Harkers Island;Halloween","format original":"Periodicals","description":"Volume 20 (number 3) of the North Carolina folklore journal, issued in August 1972. Volume published in Chapel Hill, North Carolina.",  "cdm":"2394", "id":"folklore2394" },
+    { "title":"North Carolina folklore [20.4 November 1972]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1972-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Christmas","format original":"Periodicals","description":"Volume 20 (number 4) of the North Carolina folklore journal, issued in November 1972. Volume published in Chapel Hill, North Carolina.",  "cdm":"2454", "id":"folklore2454" },
+    { "title":"North Carolina folklore journal [21.1 April 1973]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1973-04","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklore--North Carolina--Salter Path","format original":"Periodicals","description":"First issue with the title North Carolina Folklore Journal. Volume 21 (number 1) of the North Carolina folklore journal, issued in April 1973. Published in Raleigh, North Carolina.",  "cdm":"2505", "id":"folklore2505" },
+    { "title":"North Carolina folklore journal [22.2 May 1974]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1974-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Boxing","format original":"Periodicals","description":"Volume 22 (number 2) of the North Carolina folklore journal, issued in May 1974. Published in Raleigh, North Carolina. Cover Image: Photo: Joel Lee, NCSU.",  "cdm":"2573", "id":"folklore2573" },
+    { "title":"North Carolina folklore journal [27.3 December 1979]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1979-12","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Caldwell, Erskine, 1903-1987;Novelists, American;Colloquial language;Folk tales","format original":"Periodicals","description":"Volume 27 (number 3) of the North Carolina folklore journal, issued in December 1979. Published in Raleigh, North Carolina. Cover Image: Illustration by Norma Farthing Murphy.",  "cdm":"2617", "id":"folklore2617" },
+    { "title":"North Carolina folklore journal [24.2 August 1976]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1976-08","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Legends--North Carolina;Witches--North Carolina--Iredell County;Legends","format original":"Periodicals","description":"Volume 24 (number 2) of the North Carolina folklore journal, issued in August 1976. Published in Raleigh, North Carolina.",  "cdm":"2653", "id":"folklore2653" },
+    { "title":"North Carolina folklore journal [22.3 August 1974]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1974-08","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Alston, Theodosia Burr, 1783-1813; Topsail Island (N.C.)--History","format original":"Periodicals","description":"Volume 22 (number 3) of the North Carolina folklore journal, issued in August 1974. Published in Raleigh, North Carolina. Cover Image: Photo: Joel Lee, NCSU.",  "cdm":"2687", "id":"folklore2687" },
+    { "title":"North Carolina folklore journal [37.2 Summer-Fall 1990]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1990","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Germans--North Carolina--Davidson County--Social life and customs;Easter;Christmas","format original":"Periodicals","description":"Volume 37 (number 2) of the North Carolina folklore journal, issued for summer-fall 1990. Published in Raleigh, North Carolina. Cover Image Odell and Joe Thompson, Orange County, NC, 1990. Photo Wayne Martin.",  "cdm":"2739", "id":"folklore2739" },
+    { "title":"North Carolina folklore journal [34.2 Fall-Summer 1987]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1987","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Lumbee Indians--North Carolina;Dial, Adolf L., 1922-1995;Pembroke State University;Cherokee Indians--North Carolina-- Social life and customs; Qualla Arts and Crafts Mutual, Inc.;DuPree, Betty;Folklore;Literature","format original":"Periodicals","description":"Volume 34 (number 2) of the North Carolina folklore journal, issued for summer-fall 1987. Published in Raleigh, North Carolina. Cover Image: A Moravian brass band plays at Easter sunrise services, Old Salem, 1985.  Photo: Thomas McGowan.",  "cdm":"2779", "id":"folklore2779" },
+    { "title":"North Carolina folklore journal [22.4 November 1974]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1974-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Railroads--Folklore;Corn--Husking;Birds--Folklore","format original":"Periodicals","description":"Volume 22 (number 4) of the North Carolina folklore journal, issued in November 1974. Published in Raleigh, North Carolina. Cover Image: Photo: Joel Lee, NCSU.",  "cdm":"2830", "id":"folklore2830" },
+    { "title":"North Carolina folklore journal [29.2 Fall-Winter 1981]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1981","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Lumbee Indians;Lumbee Indians--North Carolina--Folklore;Traditional medicine;Healers--North Carolina","format original":"Periodicals","description":"Volume 29 (number 2) of the North Carolina folklore journal, issued for fall-winter 1981. Published in Raleigh, North Carolina. Cover Image: Ann Williams weaves the Alexander Family Kentucky Beauty on the look at the Hezekiah Alexander Homesite in Charlotte.",  "cdm":"2870", "id":"folklore2870" },
+    { "title":"North Carolina folklore journal [46.1-2 Winter-Spring-Summer-Fall 1999]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1999","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Volume 46 (numbers 1 and 2) of the North Carolina folklore journal, issued for winter-spring-summer-fall 1999. Published in Raleigh, North Carolina.",  "cdm":"2987", "id":"folklore2987" },
+    { "title":"North Carolina folklore journal [23.2 May 1975]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1975-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklore--North Carolina; African Americans--Folklore","format original":"Periodicals","description":"Volume 23 (number 2) of the North Carolina folklore journal, issued in May 1975. Published in Raleigh, North Carolina.",  "cdm":"3023", "id":"folklore3023" },
+    { "title":"North Carolina folklore journal [24.3 November 1976]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1976-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Cherokee Indians--North Carolina;Dance--Folklore;Plants;Witchcraft;Traditional medicine;Herbs--Therapeutic use;Folklore--North Carolina--Shallotte River;Water--Health aspects","format original":"Periodicals","description":"Volume 24 (number 3) of the North Carolina folklore journal, issued in November 1976. Published in Raleigh, North Carolina.",  "cdm":"3068", "id":"folklore3068" },
+    { "title":"North Carolina folklore journal [25.2 November 1977]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1977-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklore--North Carolina--Perquimans County;Perquimans County (N.C.)--Economic conditions;Superstition;Burial","format original":"Periodicals","description":"Volume 25 (number 2) of the North Carolina folklore journal, issued in November 1977. Published in Raleigh, North Carolina. Cover Image: Photo courtesy of Judy Cornett, Appalachian Oral History Project.",  "cdm":"3116", "id":"folklore3116" },
+    { "title":"North Carolina folklore journal [23.4 November 1975]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1975-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Games","format original":"Periodicals","description":"Volume 23 (number 4) of the North Carolina folklore journal, issued in November 1975. Published in Raleigh, North Carolina.",  "cdm":"3152", "id":"folklore3152" },
+    { "title":"North Carolina folklore journal [26.3 November 1978]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1978-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Legends--North Carolina--Ashe County;North Carolina--History--World War, 1939-1945;Coast defenses--North Carolina--History;Folklore;Seashore--North Carolina","format original":"Periodicals","description":"Volume 26 (number 3) of the North Carolina folklore journal, issued in November 1978. Published in Raleigh, North Carolina. Cover Image: Winter scene in Watauga County, NC. Undated photograph from the Appalachian Oral History Project at Appalachian State University",  "cdm":"3192", "id":"folklore3192" },
+    { "title":"North Carolina folklore journal [Special issue 25 April 1977]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1977-04","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Volume 25 (special issue) of the North Carolina folklore journal, issued in April 1977. Volume devoted to artists and artisans of Appalachia.",  "cdm":"3348", "id":"folklore3348" },
+    { "title":"North Carolina folklore journal [42.2 Summer-Fall 1995]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1995","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 42 (number2) of the North Carolina folklore journal, issued for summer-fall 1995. Published in Raleigh, North Carolina. Cover Image Bessie Eldreth sits with her granddaughter Stacey Eldreth on the porch of her home, Watauga County, NC, summer 1988.",  "cdm":"3416", "id":"folklore3416" },
+    { "title":"North Carolina folklore journal [30.2 Fall-Winter 1982]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1982","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Textile Workers' Strike (1929 : Gastonia, N.C.)","format original":"Periodicals","description":"Volume 30 (number 2) of the North Carolina folklore journal, issued for fall-winter 1982. Published in Raleigh, North Carolina. Cover Image: Crazy quilt by Zenna Todd of Ennice, North Carolina. Photo: Geraldine Johnson, American Folklife Center BR-45-20544.",  "cdm":"3483", "id":"folklore3483" },
+    { "title":"North Carolina folklore journal [36.2 Summer-Fall 1989]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1989","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Legends--North Carolina--Beaufort County; Boatbuilding--North Carolina--Harkers Island--History;Outer Banks (N.C.)--History","format original":"Periodicals","description":"Volume 36 (number 2) of the North Carolina folklore journal, issued for summer-fall 1989. Published in Raleigh, North Carolina. Cover Image Stanley Hicks shows a dulcimer and fretless banjo made in his workshop, Bethel community, Spring 1986. Photo Speed Hallman.",  "cdm":"3559", "id":"folklore3559" },
+    { "title":"North Carolina folklore journal [26.1 May 1978]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1978-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Dance festivals-North Carolina--Asheville;Folk festivals--North Carolina--Asheville;Wilkins, Kay;Folklore--North Carolina--Outer Banks","format original":"Periodicals","description":"Volume 26 (number 1) of the North Carolina folklore journal, issued in May 1978. Published in Raleigh, North Carolina. Cover Image: Bicentennial quilt by students at the Crossnore School, Avery County, North Carolina. Photo: David Gaines.",  "cdm":"3611", "id":"folklore3611" },
+    { "title":"North Carolina folklore journal [23.1 February 1975]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1975-02","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine;Banjoists--North Carolina;African Americans--North Carolina--Piedmont Triad--Music","format original":"Periodicals","description":"Volume 23 (number 1) of the North Carolina folklore journal, issued in February 1975. Published in Raleigh, North Carolina.",  "cdm":"3647", "id":"folklore3647" },
+    { "title":"North Carolina folklore journal [24.1 March 1976]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1976-03","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine","format original":"Periodicals","description":"Volume 24 (number 1) of the North Carolina folklore journal, issued in March 1976. Published in Raleigh, North Carolina.",  "cdm":"3691", "id":"folklore3691" },
+    { "title":"North Carolina folklore journal [30.1 Spring-Summer 1982]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1982","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine;Folk art","format original":"Periodicals","description":"Volume 30 (number 1) of the North Carolina folklore journal, issued for spring-summer 1982. Published in Raleigh, North Carolina. Cover Image: Tommy Jarrell at home, 1981.  Photo: Tom Rankin",  "cdm":"3747", "id":"folklore3747" },
+    { "title":"North Carolina folklore journal [39.2 Summer-Fall 1992]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1992","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Oral tradition-North Carolina--Carteret County;Anecdotes--North Carolina--Carteret County;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 39 (number 2) of the North Carolina folklore journal, issued for summer-fall 1992. Published in Raleigh, North Carolina. Cover Image: Arliss Watford in front of his workshop, near Winford, Hertford County.  Photo: A. Everette James, Jr.",  "cdm":"3820", "id":"folklore3820" },
+    { "title":"North Carolina folklore journal [27.1 May 1979]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1979-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Tobacco;African Americans--Folklore--Southern States;African Americans--Folklore--African influences;Folk music--Appalachian Region","format original":"Periodicals","description":"Volume 27 (number 1) of the North Carolina folklore journal, issued in May 1979. Published in Raleigh, North Carolina. Cover Image: Algia Mae Hinton of Zebulon, NC, performing at the North Carolina Folklife Festival, Durham, July 4, 1978. Photo: Bill Boyarsky.",  "cdm":"3855", "id":"folklore3855" },
+    { "title":"North Carolina folklore journal [31.1 Spring-Summer 1983]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1983","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Superstition;Chesnutt, Charles Waddell, 1858-1932;Medicine, Rural;Traditional medicine","format original":"Periodicals","description":"Volume 31 (number 1) of the North Carolina folklore journal, issued for spring-summer 1983. Published in Raleigh, North Carolina. Cover Image: National Heritage Fellow Ray Hicks and his wife Rosa. Summer 1982, Watauga County, NC.  Photo: Barbara McDermitt.",  "cdm":"3903", "id":"folklore3903" },
+    { "title":"North Carolina folklore journal [42.1 Winter-Spring 1995]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1995","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Woodworkers--North Carolina--Granville County","format original":"Periodicals","description":"Volume 42 (number 1) of the North Carolina folklore journal, issued for winter-spring 1995. Published in Raleigh, North Carolina. Cover Image Sodom Laurel ballad singer Dellie Norton sits with her granddaughter Deleen Norton, July 1993. Photo Adrienne Hollifield.",  "cdm":"3971", "id":"folklore3971" },
+    { "title":"North Carolina folklore journal [28.2 November 1980]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1980-11","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklorists","format original":"Periodicals","description":"Volume 28 (number 2) of the North Carolina folklore journal, issued in November 1980. Published in Raleigh, North Carolina. Cover Image: Manco Sneed, Cherokee, NC, 1970. Photo: Blanton Owen",  "cdm":"4011", "id":"folklore4011" },
+    { "title":"North Carolina folklore journal [35.2 Summer-Fall 1988]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1988","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Gospel musicians-North Carolina--Caswell County;Cherokee baskets;Odum, Howard Washington, 1884-1954;Johnson, Guy Benton, 1901-1991;African American folk art;Corn--Husking;Blue Ridge Mountains--Social life and customs;Oxen;Tom Davenport Films;Motion pictures--North Carolina;Editors","format original":"Periodicals","description":"Volume 35 (number 2) of the North Carolina folklore journal, issued for summer-fall 1988. Published in Raleigh, North Carolina. Cover Image: Traditional basket maker Eva Wolfe of the Eastern Band of the Cherokee was the recipient of a 1988 Brown-Hudson Folklore Award. Photo: courtesy of the Indian Crafts Board, US Department of the Interior.",  "cdm":"4079", "id":"folklore4079" },
+    { "title":"North Carolina folklore journal [26.2 September 1978]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1978-09","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Volume 26 (number 2) of the North Carolina folklore journal, issued in September 1978. Published in Raleigh, North Carolina. Cover Image: Stanley Hicks of Vilas, NC, telling a Jack Tale at the North Carolina Folklife Festival, Durham, July 4, 1978.  Photo: Thomas McGowan",  "cdm":"4179", "id":"folklore4179" },
+    { "title":"North Carolina folklore journal [41.1 Winter-Spring 1994]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1994","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Farmers;Agriculture--Economic aspects;North Carolina--History--20th century;North Carolina--History--19th century;Farm produce--Marketing;Folk songs;Tattoo artists;Tattooing;Women potters;Pottery--Folklore;Auman, Dorothy Cole, 1925-1991;Produce trade--North Carolina--Walnut Cove;Small business--North Carolina--Walnut Cove","format original":"Periodicals","description":"Volume 41 (number 1) of the North Carolina folklore journal, issued for winter-spring 1994. Published in Raleigh, North Carolina. Cover Image Dorothy Cole Auman turns pottery at the wheel in her shop. Seagrove, NC, 1998. Phtoto Rob Amberg.",  "cdm":"4247", "id":"folklore4247" },
+    { "title":"North Carolina folklore journal [38.2 Summer-Fall 1991]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1991","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Hicks, Ray, 1922-2003","format original":"Periodicals","description":"Volume 38 (number 2) of the North Carolina folklore journal, issued for summer-fall 1991. Published in Raleigh, North Carolina. Cover Image Ray Hicks performs at the Beech Mountain Story-Telling Festival, 1989. Photo Jon Wilmesherr.",  "cdm":"4371", "id":"folklore4371" },
+    { "title":"North Carolina folklore journal [29.1 Spring-Summer 1981]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1981","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folk tales","format original":"Periodicals","description":"Volume 29 (number 1) of the North Carolina folklore journal, issued for spring-summer 1981. Published in Raleigh, North Carolina. Cover Image: Rogers Whitener (left) and Alfred Adams (right) of Boone look over a mechanical toy made by Willard Watson (center). Deep Gap, NC, 1974.",  "cdm":"4461", "id":"folklore4461" },
+    { "title":"North Carolina folklore journal [25.1 May 1977]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1977-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Newspaper editors;Folk music;Traditional medicine; Food habits--Appalachian Region","format original":"Periodicals","description":"Volume 25 (number 1) of the North Carolina folklore journal, issued in May 1977. Published in Raleigh, North Carolina.  Cover Image: Bascom Lamar Lunsford. Photo: courtesy of Memorial Library, Mars Hill College.",  "cdm":"4509", "id":"folklore4509" },
+    { "title":"North Carolina folklore journal [34.1 Winter-Spring 1987]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1987","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Urban renewal;Legends;Urban folklore;Folk music","format original":"Periodicals","description":"Volume 34 (number 1) of the North Carolina folklore journal, issued for winter-spring 1987. Published in Raleigh, North Carolina. Cover Image: Brown-Hudson Folklore Award winner Bertie Mae Dickens of Ennice, NC, plays at a music picnic in Galax, VA, Fall 1984. Photo: Cece Conway.",  "cdm":"4581", "id":"folklore4581" },
+    { "title":"North Carolina folklore journal [23.3 August 1975]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1975-08","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Evans, Charles Napoleon Bonaparte, 1812-1883","format original":"Periodicals","description":"Volume 23 (number 3) of the North Carolina folklore journal, issued in August 1975. Published in Raleigh, North Carolina.",  "cdm":"4617", "id":"folklore4617" },
+    { "title":"North Carolina folklore journal [32.2 Fall-Winter 1984]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1984","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Traditional medicine;Folk tales;African American artists--North Carolina--Pantego;Ballads; Wise, Naomi, 1789-1807 or 1808;Folk songs","format original":"Periodicals","description":"Volume 32 (number 2) of the North Carolina folklore journal, issued for fall-winter 1984. Published in Raleigh, North Carolina. Cover Image: Quiltmaker Lillie Lee with a great-granddaughter, Chatham County, NC, 1984. Photo: Mary Anne McDonald.",  "cdm":"4670", "id":"folklore4670" },
+    { "title":"North Carolina folklore journal [45.2 Summer-Fall 1998]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1998","location":"North Carolina, United States","subject":"Folklore--North Carolina;North Carolina--Social life and customs--Periodicals;Monuments--North Carolina--Raleigh;Memorials--North Carolina--Raleigh;Vietnam War, 1961-1975;Woodworkers--North Carolina--Mitchell County;Alexander County (N.C.);Choral singing--North Carolina;North Carolina Folklore Society;Awards in Literature;Embroidery--North Carolina--Siler City;Storytellers;Watauga (Tenn.);Hiddenite (N.C.);Folklorists--North Carolina, Western;Musicians--North Carolina--Caldwell County;Folk singers;Harris, Trudier;Folk artists-North Carolina--Pitt County;Dulcimer","format original":"Periodicals","description":"Volume 45 (number 2) of the North Carolina folklore journal, issued for summer-fall 1998. Published in Raleigh, North Carolina. Cover Image: Lester Gay’s decorative windmills, made from bicycle wheels, hubcaps, and other discarded material, greeted travelers out in front of his home on Bell’s Road, west of Fountain, Pitt County. Photo Karen Baldwin.",  "cdm":"4771", "id":"folklore4771" },
+    { "title":"North Carolina folklore journal [39.1 Winter-Spring 1992]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1992","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Ship models;Artisans;Craft festivals;Public health laws;Adoption;Public welfare","format original":"Periodicals","description":"Volume 39 (number 1) of the North Carolina folklore journal, issued for winter-spring 1992. Published in Raleigh, North Carolina. Cover Image: Model of the trawler David Hartsell by Steve Lewis (29?).",  "cdm":"4820", "id":"folklore4820" },
+    { "title":"North Carolina folklore journal [40.1 Winter-Spring 1993]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1993","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Charities--North Carolina--Greenville;Motorcycles--Societies, etc.;Ironwork;Blacksmithing","format original":"Periodicals","description":"Volume 40 (number 1) of the North Carolina folklore journal, issued for winter-spring 1993. Published in Raleigh, North Carolina. Cover Image: North Carolina Folk Heritage Award winner Bea Hensley at work in his shop, Spruce Pine, NC, 2 March 1992. Photo: Craig M. Stinson.",  "cdm":"4873", "id":"folklore4873" },
+    { "title":"North Carolina folklore journal [31.2 Fall-Winter 1983]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1983","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Food habits","format original":"Periodicals","description":"Volume 31 (number 2) of the North Carolina folklore journal, issued for fall-winter 1983. Published in Raleigh, North Carolina. Cover Image: 1983 Brown-Hudson Folklore Award recipients Willard Watson, Ora Watson, and Joe Wilson.",  "cdm":"4926", "id":"folklore4926" },
+    { "title":"North Carolina folklore journal [41.2 Summer-Fall 1994]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1994","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 41 (number 2) of the North Carolina folklore journal, issued for summer-fall 1994. Published in Raleigh, North Carolina. Cover Image Archie Green visits a work site at the University of North Carolina, Chapel Hill, September 1994. Photo Dan Sears, UNC-CH News Services.",  "cdm":"5003", "id":"folklore5003" },
+    { "title":"North Carolina folklore journal [43.1 Winter-Spring 1996]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1996","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Presbyterian Church--North Carolina--Alamance;Cemeteries--North Carolina--Alamance;Sepulchral monuments--North Carolina--Alamance;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 43 (number 1) of the North Carolina folklore journal, issued for winter-spring 1996. Published in Raleigh, North Carolina. Cover Image Poster for the Eighth Annual Core Sound Decoy Festival painted by David A. Lawrence of Harkers Island, NC.",  "cdm":"5080", "id":"folklore5080" },
+    { "title":"North Carolina folklore journal [27.2 November 1979]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1979-11","location":"North Carolina, United States","subject":"Material culture;Basket making--North Carolina;African American artists--North Carolina--History--19th century;Traditional medicine;Folklore;Pottery","format original":"Periodicals","description":"Volume 27 (number 2) of the North Carolina folklore journal, issued in November 1979. Published in Raleigh, North Carolina. Cover Image: Burlon Craig, Vale Lincoln County, NC, turning the bottom section of a four-gallon churn. He will add the “cap” seen on the right to complete the piece.  Photo: Charles G. Zug III.",  "cdm":"5124", "id":"folklore5124" },
+    { "title":"North Carolina folklore journal [47.1 Winter-Spring 2000]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2000","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Documentary films","format original":"Periodicals","description":"Volume 47 (number 1) of the North Carolina folklore journal, issued for winter-spring 2000. Published in Raleigh, North Carolina. Cover Image: An exhibit in the Silver Family Museum, a framed article about the murder published in a High Point, North Carolina, newspaper in 1988. Photo Daniel Patterson.",  "cdm":"5209", "id":"folklore5209" },
+    { "title":"North Carolina folklore journal [44.1-2 1997]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1997","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Fiddlers;Surry County (N.C.)--Social life and customs;Fiddling; Blues musicians--North Carolina--Durham;African American musicians--North Carolina--Durham","format original":"Periodicals","description":"Volume 44 (numbers 1-2) of the North Carolina folklore journal, issued for the entire year of 1997. Published in Raleigh, North Carolina. Cover Image Photographs of the North Carolina Museum of History exhibit on state Folk Heritage Award winners from 1994-96.  Photos Eric N. Blevins, NC Museum of History.",  "cdm":"5374", "id":"folklore5374" },
+    { "title":"North Carolina folklore journal [49.2 Fall-Winter 2002]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2002","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Briarhoppers (Musical group);Awards in literature;North Carolina Folklore Society","format original":"Periodicals","description":"Volume 49 (number 2) of the North Carolina folklore journal, issued for fall-winter 2002. Published in Raleigh, North Carolina. Cover Image: Peter Wolf Toth with his Sequoyah statue, Cherokee, NC.",  "cdm":"5461", "id":"folklore5461" },
+    { "title":"North Carolina folklore journal [48.1-2 Spring-Summer-Fall-Winter 2001]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2001","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals","format original":"Periodicals","description":"Volume 48 (numbers 1 and 2) of the North Carolina folklore journal, issued for fall-winter 2001. Published in Raleigh, North Carolina. Cover Image: Contemporary potter Billy Henson and a sample of his work. Lyman, South Carolina, 1998.  Photo Paul Matheny.",  "cdm":"5586", "id":"folklore5586" },
+    { "title":"North Carolina folklore journal [43.2 Summer-Fall 1996]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1996","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Boatbuilders--North Carolina--Harkers Island;Boats and boating--North Carolina--Harkers Island;Potters-North Carolina","format original":"Periodicals","description":"Volume 43 (number 2) of the North Carolina folklore journal, issued for summer-fall 1996. Published in Raleigh, North Carolina. Cover Image A handmade license plate advertises the model boat making of James Allen Rose, 1996 Brown-Hudson Folkore Award recipient. Harkers Island, NC, 22 March 1996.  Photo Thomas McGowan.",  "cdm":"5699", "id":"folklore5699" },
+    { "title":"North Carolina folklore journal [38.1 Winter-Spring 1991]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1991","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Women potters--North Carolina","format original":"Periodicals","description":"Volume 38 (number 1) of the North Carolina folklore journal, issued for winter-spring 1991. Published in Raleigh, North Carolina. Cover Image Catalog cover for J.B. Cole’s Pottery, Montgomery County, c. 1930. Brown-Hudson Folklore Award winner Nell Cole Graves turns a pot at upper left. Photo Charles G. Zug III.",  "cdm":"5776", "id":"folklore5776" },
+    { "title":"North Carolina folklore journal [40.2 Summer-Fall 1993]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1993","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Wiley, Calvin Henderson, 1819-1887;Folk literature;African American quiltmakers-North Carolina--Edgecombe County;Women--Societies and clubs;Tarboro (N.C.);African Americans--Library resources;African Americans--History; North Carolina State University;Wood-carvers--North Carolina;Sambimb, Somsak, Phramaha; Banjoists;African American musicians;Thompson, Odell, 1911-1994;Folk artists;Warren County (N.C.);Stone carving;Guilford Native American Association; Whisnant, David E., 1938-","format original":"Periodicals","description":"Volume 40 (number 2) of the North Carolina folklore journal, issued for summer-fall 1993. Published in Raleigh, North Carolina. Cover Image: A scene from Calvin Henderson Wiley’s Roanoke as illustrated by Felix O. C. Darley in Sartain’s Union Magazine of Literature and Art in 1849.",  "cdm":"5853", "id":"folklore5853" },
+    { "title":"North Carolina folklore journal [35.1 Winter-Spring 1988]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1988","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Quilting","format original":"Periodicals","description":"Volume 35 (number 1) of the North Carolina folklore journal, issued for winter-spring 1988. Published in Raleigh, North Carolina. Cover Image: W. Amos “Doc” Abrams plays a music box from his collection of roller organs and other mechanical music contraptions.  Dr. Abrams’s opening concert has been a tradition at annual meetings of the NC Folklore Society. Photo: David Huntley.",  "cdm":"5934", "id":"folklore5934" },
+    { "title":"North Carolina folklore journal [50.1-2 Spring-Summer-Fall-Winter 2003]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2003","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Thompson, Tommy, 1937-2003","format original":"Periodicals","description":"Volume 50 (numbers 1 and 2) of the North Carolina folklore journal, issued for spring-summer-fall-winter 2003. Published in Raleigh, North Carolina. Cover Images: Ray Hicks. Photo: Thomas McGowan. & Tommy Thompson. Photo: John Menapace, circa 1974.",  "cdm":"6053", "id":"folklore6053" },
+    { "title":"North Carolina folklore journal [49.1 Spring-Summer 2002]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2002","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 49 (number 1) of the North Carolina folklore journal, issued for spring-summer 2002. Published in Raleigh, North Carolina. Cover Image: Betty Smith. Photo contributed.",  "cdm":"6114", "id":"folklore6114" },
+    { "title":"North Carolina folklore journal [36.1 Winter 1989]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1989","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;African American musicians;African American families--North Carolina--Granville County;Motion picture film","format original":"Periodicals","description":"Volume 36 (number 1) of the North Carolina folklore journal, issued for winter-spring 1989. Published in Raleigh, North Carolina. Cover Image Bertha Landis (seated) and her children, 1983;Left to right, first row John Landis, Priscilla Landis Daniel, Jessie Mae Landis Tharrington, Doshie Landis Winston, Robert Landis;Second row Fleming Landis, Zenas Landis, Truzell Landis;Top row: Tony Landis, Claude Landis. Photo Landis family photographs, 1983",  "cdm":"6183", "id":"folklore6183" },
+    { "title":"North Carolina folklore journal [45.1 Winter-Spring 1998]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1998","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Manners and customs","format original":"Periodicals","description":"Volume 45 (number 1) of the North Carolina folklore journal, issued for winter-spring 1998. Published in Raleigh, North Carolina. Cover Images: Upper left, house and fields, Lake Landing along SR 1117 (CFS-WM-008-3). Upper right, Larry Shaw cleans crab posts, Gull Rock Marina, Hyde County (CFS-WM-004-11). Lower left, William and Etta Mae Cuthrell display squares from her quilting, Kilkenny, Tyrrell County (CFS-WM-004-11). Lower right, concrete gravemarker, along SR 1303, New Lake, Hyde County (CFS-WM-002-18). All photos by W.T. Mansfield.",  "cdm":"6300", "id":"folklore6300" },
+    { "title":"North Carolina folklore journal [37.1 Winter-Spring 1990]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1990","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Police training--North Carolina;Manners and customs;Food habits;Loons;Hot air balloons;Basket makers","format original":"Periodicals","description":"Volume 37 (number 1) of the North Carolina folklore journal, issued for winter-spring 1990. Published in Raleigh, North Carolina. Cover Image Wickerwork on a gondola at The Balloon Works, Statesville, NC, September 1987. Photo Patricia Gantt.",  "cdm":"6369", "id":"folklore6369" },
+    { "title":"North Carolina folklore journal [47.2 Midwinter 2000]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2000","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Brown-Hudson Folklore Award;Davenport, Ray;Davenport, Walter;Fishers--North Carolina--Tyrrell County","format original":"Periodicals","description":"Volume 47 (number 2) of the North Carolina folklore journal, as a Midwinter issue 2000. Published in Raleigh, North Carolina. Cover Image: John Kooner by Kinda Werthwein.",  "cdm":"6510", "id":"folklore6510" },
+    { "title":"North Carolina folklore journal [32.1 Spring-Summer 1984]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1984","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Religious communities--North Carolina;Quakers;Snow Camp Region (N.C.)--History;Independent Order of Odd Fellows;Mural painting and decoration","format original":"Periodicals","description":"Volume 32 (number 1) of the North Carolina folklore journal, issued for spring-summer 1984. Published in Raleigh, North Carolina. Cover Image: The Hugh Dixon Homestead, northern and eastern elevations. March 1980, Snow Camp, NC. Photo: Rachel Osborn.",  "cdm":"6559", "id":"folklore6559" },
+    { "title":"North Carolina folklore journal [33.1-2 1985-1986]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1986","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folk music","format original":"Periodicals","description":"Volume 33 (numbers 1-2) of the North Carolina folklore journal, issued for 1985-1986. Published in Raleigh, North Carolina. Cover Image: Lulu Belle and Scotty Wiseman.",  "cdm":"6656", "id":"folklore6656" },
+    { "title":"North Carolina folklore journal [28.1 May 1980]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"1980-05","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Folklorists","format original":"Periodicals","description":"Volume 28 (number 1) of the North Carolina folklore journal, issued in May 1980. Published in Raleigh, North Carolina. Cover Image: The William Eli Taylor House today, Bear Grass, Martin County, NC. Photo Elmer Taylor Malone, Jr.",  "cdm":"6706", "id":"folklore6706" },
+    { "title":"North Carolina folklore journal [55.2 Fall-Winter 2008]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2008","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Sandhills (Ga.- N.C.);Cultural property;Folk songs;Portsmouth Island (N.C.)--History","format original":"Periodicals","description":"Volume 55 (number 2) of the North Carolina folklore journal, issued for fall-winter 2008. Published in Raleigh, North Carolina. Cover image: Large section of the American Folklore Society Women’s Section quilt with block honoring Karen Baldwin at center. Photo: from a photograph by Henry Stindt, Photo-Graphic, Greenville, N.C.",  "cdm":"6791", "id":"folklore6791" },
+    { "title":"North Carolina folklore journal [53.2 Fall-Winter 2006]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2006","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in Literature","format original":"Periodicals","description":"Volume 53 (number 2) of the North Carolina folklore journal, issued for fall-winter 2006. Published in Raleigh, North Carolina. Cover image: Clown. Photo: Diana Molina.",  "cdm":"6864", "id":"folklore6864" },
+    { "title":"North Carolina folklore journal [51.1 Spring-Summer 2004]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2004","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in Literature","format original":"Periodicals","description":"Volume 51 (number 1) of the North Carolina folklore journal, issued for spring-summer 2004. Published in Raleigh, North Carolina. Cover Image: Cambodian American celestial dancers, Vandy Chhum (foreground) and Ran Kong. Greensboro Buddhist Center, 2003.  Photo: Cedric N. Chatterly.",  "cdm":"6935", "id":"folklore6935" },
+    { "title":"North Carolina folklore journal [51.2 Fall-Winter 2004]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2004","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Hurricane Isabel, 2003;Vogel, Robert A.;Blue Ridge Heritage Initiative;Heritage tourism;Musicians;North Carolina Folklore Society;Awards in literature;North Carolina Folklore Society","format original":"Periodicals","description":"Volume 51 (number 2) of the North Carolina folklore journal, issued for fall-winter 2004. Published in Raleigh, North Carolina. Cover Image: “Big” Dallas and Mary Rose. Photo: Ulrich Mack.",  "cdm":"7018", "id":"folklore7018" },
+    { "title":"North Carolina folklore journal [53.1 Spring-Summer 2006]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2006","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Wild leek;Ramp (Plant);Musicians","format original":"Periodicals","description":"Volume 53 (number 1) of the North Carolina folklore journal, issued for spring-summer 2006. Published in Raleigh, North Carolina. Cover image: Surry County fiddler Tommy Jarrell.  Photo: David Holt.",  "cdm":"7099", "id":"folklore7099" },
+    { "title":"North Carolina folklore journal [52.2 Fall-Winter 2005]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2005","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;North Carolina Folklore Society;Awards in literature","format original":"Periodicals","description":"Volume 52 (number 2) of the North Carolina folklore journal, issued for fall-winter 2004. Published in Raleigh, North Carolina. Cover Image: Keith W. Allen (1963-2005) stringing hot peppers for his father-in-law, Otis Johnson, at the Johnson’s Farm stall, North Carolina Farmers Market.  Photo: John N. Wall, 2004.",  "cdm":"7176", "id":"folklore7176" },
+    { "title":"North Carolina folklore journal [55.1 Spring-Summer 2008]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2008","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Antiquities--Collection and preservation","format original":"Periodicals","description":"Volume 55 (number 1) of the North Carolina folklore journal, issued for spring-summer 2008. Published in Raleigh, North Carolina. Cover image: Felipe Jesus Consalvos, The Fun Doctor, circa 1920-1950s, mixed media collage on paper, 26 x 21 inches (FJC 517).",  "cdm":"7233", "id":"folklore7233" },
+    { "title":"North Carolina folklore journal [52.1 Spring-Summer 2005]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2005","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Storytellers;Coastal plains--North Carolina;Navigation--History;Portsmouth Island (N.C.)--History","format original":"Periodicals","description":"Volume 52 (number 1) of the North Carolina folklore journal, issued for spring-summer 2005. Published in Raleigh, North Carolina. Cover Image: At the end of the Portsmouth Homecoming hymn sing, Rudy Carter range the church bell to call everyone together for the worship service.  Rudy is a descendant of Rose Ireland, the former slave who remained on Portsmouth after the Civil War.  he is also the cousin of Henry Pigott (1896-1971), the last African American and the last make to live on Portsmouth Island.  Over the years, it became Henry’s responsibility to ring the bell.  Photo: Jan Eason, 2004.",  "cdm":"7310", "id":"folklore7310" },
+    { "title":"North Carolina folklore journal [54.1 Spring-Summer 2007]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2007","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Princeville (N.C.)--History;Hurricane Floyd, 1999;Mules;Festivals--North Carolina--Princeville;Shag (Dance)","format original":"Periodicals","description":"Volume 54 (number 1) of the North Carolina folklore journal, issued for spring-summer 2007. Published in Raleigh, North Carolina. Cover image: Mules at Benson’s Mule Days celebration, 2004. Photo: Ken Tart.",  "cdm":"7387", "id":"folklore7387" },
+    { "title":"North Carolina folklore journal [54.2 Fall-Winter 2007]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2007","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals;North Carolina--Social life and customs--Periodicals;Banjo makers;Blue Ridge Mountains in art;Piedmont (U.S. : Region)--Songs and music","format original":"Periodicals","description":"Volume 54 (number 2)of the North Carolina folklore journal, issued for fall-winter 2007. Published in Raleigh, North Carolina. Cover image: John White’s “The Flyer,” an Indian medicine man, circa 1585. From Kim Sloan’s A New World, courtesy of the British Museum.",  "cdm":"7480", "id":"folklore7480" },
+    { "title":"North Carolina folklore journal [62.1 Winter-Spring 2015]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2015","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals; Folklore--North Carolina; Oral history--North Carolina; North Carolina--Genealogy; Bluff Mountain (N.C.); Folk music--North Carolina","format original":"Periodicals","description":"Volume 62 (number 1) of the North Carolina folklore journal, issued for winter-spring 2015. Published in Raleigh, North Carolina. Cover Image: Collage poster about Betty Place Trail, named for Betty Gowan Bluff Mountain Festival, June 13, 2015. Photo by Madison Moss.",  "cdm":"7593", "id":"folklore7593" },
+    { "title":"North Carolina folklore journal [58.2 Summer-Fall 2011]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2011","location":"North Carolina, United States","subject":"Folklore--North Carolina; Folklore--North Carolina--Periodicals; Apple growers; Apples--Varieties; Documentary films; North Carolina--Social life and customs; African American musicians; African Americans--Business; Folk musicians; Honey; Honeybee; Beekeeping; Beekeepers; Tar Heel (Nickname); North Carolina--History; Folk music","format original":"Periodicals","description":"Volume 58 (number 2) of the North Carolina folklore journal, issued for fall-winter 2011. Published in Raleigh, North Carolina. Cover Image: 2001 Brown-Hudson Awardee Mary Jane Queen holding a photograph of her parents, Jim and Clearsie Prince. Photo by 2011 Brown-Hudson Award-Winner Neal Hutcheson.",  "cdm":"7654", "id":"folklore7654" },
+    { "title":"North Carolina folklore journal [56.2 Summer-Fall 2009]--DELETE", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2009","location":"North Carolina, United States","subject":"Barbering; Potters-North Carolina; Traditional music; Folklorists; Art centers--Stecoah; Bluegrass music; Blues musicians; Snakes--North Carolina; Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 56 (number 2) of the North Carolina folklore journal, issued for fall-winter 2009. Published in Raleigh, North Carolina. Cover Image: Ruben Olmos holds his Brown-Hudson Folklore Award at the NC Folklore Society's annual meeting, Elon University, NC, 6 April 2009. Photo by Michael Taylor.",  "cdm":"7723", "id":"folklore7723" },
+    { "title":"North Carolina folklore journal [59.1 Winter-Spring 2012]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2012","location":"North Carolina, United States","subject":"Photography--Exhibitions; Folklore--North Carolina--Periodicals; Folklore--North Carolina; Seafood industry--North Carolina; Fishermen; Food--North Carolina; Sweet potatoes--North Carolina; Migrant agricultural laborers--North Carolina; Cherokee art--North Carolina","format original":"Periodicals","description":"Volume 59 (number 1) of the North Carolina folklore journal, issued for spring-summer 2012. Published in Raleigh, North Carolina. Cover Image: Amanda Crowe. Photo courtesy of Jan Brooks and Lane Coulter Crowe/Coulter Manuscript Collection.",  "cdm":"7799", "id":"folklore7799" },
+    { "title":"North Carolina folklore journal [57.2 Summer-Fall 2010]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2010","location":"North Carolina, United States","subject":"Folk musicians; Awards--North Carolina; Material culture; Traditional music; Eastern Band of Cherokee Indians; Burial traditions; Cemeteries; Fontana Dam (N.C.); Henderson County (N.C.); Singers; Folk dancing; Cherokee Indians--North Carolina--Basket makers; Cherokee baskets; Blues musicians;  Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 57 (number 2) of the North Carolina folklore journal, issued for fall-winter 2010. Published in Raleigh, North Carolina. Cover Image: Decorated grave at Cochran Cemetery in Alarka, NC. Photo by Karen Singer.",  "cdm":"7872", "id":"folklore7872" },
+    { "title":"North Carolina folklore journal [58.1. Winter-Spring 2011]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2011","location":"North Carolina, United States","subject":"Appalachian State University (N.C.); Educators--North Carolina; College teachers--Biography; Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 58 (number 1) of the North Carolina folklore journal, issued for spring-summer 2011. Published in Raleigh, North Carolina. Cover Image: Tom McGowan at Appalachian State University Commencement ceremony. Photo courtesy of Appalachian State University.",  "cdm":"7936", "id":"folklore7936" },
+    { "title":"North Carolina folklore journal [57.1 Winter-Spring 2010]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2010","location":"North Carolina, United States","subject":"Food tours--Asheville (N.C.); Tourism; Appalachian Region; Food habits--Appalachian Region; North Carolina--History--20th century; Quilting; Textile fabrics; Ballads; Folk music--Appalachian Region; Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 57 (number 1) of the North Carolina folklore journal, issued for spring-summer 2010. Published in Raleigh, North Carolina. Cover Image: A stack of finished quilts and blankets stored at Ann Miller's home. Photo by Anne Chesky.",  "cdm":"8003", "id":"folklore8003" },
+    { "title":"North Carolina folklore journal [62.2 Summer-Fall 2015]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2015","location":"North Carolina, United States","subject":"Folklore--North Carolina--Periodicals; Folklore--North Carolina; Folk musicians; Cherokee baskets; Cherokee Indians; Food habits; Food preparation; Recipes","format original":"Periodicals","description":"Volume 62 (number 2) of the North Carolina folklore journal, issued for summer-fall 2015. Published in Raleigh, North Carolina. Cover Image: Judaculla Rock, Cullowhee, NC. Photo by NC State Archives.",  "cdm":"8090", "id":"folklore8090" },
+    { "title":"North Carolina folklore journal [61.1-2 Winter-Spring &amp; Summer-Fall 2014]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2014","location":"North Carolina, United States","subject":"Folklore--North Carolina; Folklore--North Carolina--Periodicals; Lumbee Indians--North Carolina; Dance--Folklore; Indian dance--North Carolina; North Carolina Folklore Society","format original":"Periodicals","description":"Volume 61 (numbers 1 and 2) of the North Carolina folklore journal, issued for winter-spring and summer-fall 2014. Published in Raleigh, North Carolina. Cover Image: John Turner with sorghum cane, Vilas, NC. Photo by Lou Murrey.",  "cdm":"8189", "id":"folklore8189" },
+    { "title":"North Carolina folklore journal [56.1 Winter-Spring 2009]--DELETE", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2009","location":"North Carolina, United States","subject":"Folklorists; Biography; Ballads; Folk music; Murder; Hicks, Orville, 1951-;  Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 56 (number 1) of the North Carolina folklore journal, issued for spring-summer 2009. Published in Raleigh, North Carolina. Cover Image: The young Archie Green. Southern Folklife Collection #P3388, Louis Round Wilson Library, University of North Carolina at Chapel Hill.",  "cdm":"8250", "id":"folklore8250" },
+    { "title":"North Carolina folklore journal [59.2 Summer-Fall 2012]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2012","location":"North Carolina, United States","subject":"Dance--Folklore; Folklore--North Carolina--Periodicals; Folklore--North Carolina;Folk festivals--North Carolina; Quilting; Agricultural laborers; Burial traditions","format original":"Periodicals","description":"Volume 59 (number 2) of the North Carolina folklore journal, issued for fall-winter 2012. Published in Raleigh, North Carolina. Cover Image: The Balsam Highland style with lectern, Mathis Cemetery, Jackson Co., April 13, 2013. Photo by Karen Singer Jabbur.",  "cdm":"8346", "id":"folklore8346" },
+    { "title":"North Carolina folklore journal [60.1-2 Winter-Spring &amp; Summer-Fall 2013]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2013","location":"North Carolina, United States","subject":"North Carolina Folklore Society--History; Documentary films; Anniversaries; Awards; Folklore--North Carolina--Periodicals; Fox hunting; Albertson (N.C.); Fish as food; Gravestones","format original":"Periodicals","description":"Volume 60 (numbers 1 and 2) of the North Carolina folklore journal, issued for winter-spring and summer-fall 2013. Published in Raleigh, North Carolina. Cover Image: Henry \"\"Moka\"\" Lynch demonstrates his art at the 100th Anniversary Statewide Folklife Festival.  Photo by Chloe Accardi.",  "cdm":"8486", "id":"folklore8486" },
+    { "title":"North Carolina folklore journal [56.1 Winter-Spring 2009]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2009","location":"North Carolina, United States","subject":"Folklorists; Biography; Ballads; Folk music; Murder; Hicks, Orville, 1951-;  Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 56 (number 1) of the North Carolina folklore journal, issued for spring-summer 2009. Published in Raleigh, North Carolina. Cover Image: The young Archie Green. Southern Folklife Collection #P3388, Louis Round Wilson Library, University of North Carolina at Chapel Hill.",  "cdm":"8547", "id":"folklore8547" },
+    { "title":"North Carolina folklore journal [56.2 Summer-Fall 2009]", "format":"application/pdf", "creator":"North Carolina Folklore Society.","date":"2009","location":"North Carolina, United States","subject":"Barbering; Potters-North Carolina; Traditional music; Folklorists; Art centers--Stecoah; Bluegrass music; Blues musicians; Snakes--North Carolina; Folklore--North Carolina--Periodicals","format original":"Periodicals","description":"Volume 56 (number 2) of the North Carolina folklore journal, issued for fall-winter 2009. Published in Raleigh, North Carolina. Cover Image: Ruben Olmos holds his Brown-Hudson Folklore Award at the NC Folklore Society's annual meeting, Elon University, NC, 6 April 2009. Photo by Michael Taylor.",  "cdm":"8616", "id":"folklore8616" },
+    { "title":"Words and ways : stories and incidents from my Cape Fear Valley folklore collection [16.4 December 1968]", "format":"application/pdf", "creator":"Green, Paul, 1894-1981.","date":"1968-12","location":"North Carolina, United States","subject":"Folklore--North Carolina","format original":"Periodicals","description":"Volume 16 (number 4) of the North Carolina folklore journal, issued for December 1968. Call number 398.2 G825w",  "cdm":"8771", "id":"folklore8771" }
+  ];
+  /* randomize items once at page load */
+  shuffle(items);
+
+  function filterItems(arr,q) {
+    // dont filter if no q 
+    if (q=="") { 
+      var filteredItems = arr; 
+    } else {
+      q = q.trim().toUpperCase(); 
+      // 3 filter options, filter, grep, loop...
+      // js filter
+      /*
+      var filteredItems = arr.filter(function (obj) { return Object.values(obj).join(" ").toUpperCase().includes(q);}); */
+      // jquery grep
+      /*
+      var filteredItems = jQuery.grep(arr, function(obj) { return Object.values(obj).join(" ").toUpperCase().includes(q);}); */
+      // (/keyword/i).test(source)
+      // js loop
+      /*
+      var filteredItems = [];
+      for (var i = 0, len = arr.length; i < len; i++) {
+        if(Object.values(arr[i]).join(" ").toUpperCase().includes(q)){
+          filteredItems.push(arr[i]);
+        }
+      }*/
+      // for compatible indexOf loop seems fastest
+      var filteredItems = [];
+      for (var i = 0, len = arr.length; i < len; i++) {
+        var val = "";
+        for (var k in arr[i]) { val += arr[i][k]; }
+        if(val.toUpperCase().indexOf(q) != -1){
+          filteredItems.push(arr[i]);
+        }
+      }
+    }
+    // add number 
+    $("#numberOf").html(filteredItems.length);
+    
+    // add stuff, make cards first in giant var, then add all at once to speed things up
+    var cards = "";
+    for (var i = 0, len = filteredItems.length; i < len; i++) {
+      cards += makeCard(filteredItems[i]);
+    }
+    $("#browseItems").html(cards);
+
+    // finish
+    $("#goButton").focus();
+    $("#loading").hide();
+  };
+
+  var query = "";
+  /* filter if hash in initial URL */
+  if(window.location.hash) {
+    query = decodeURIComponent(location.hash.substr(1));
+    $('#quickSearch').val(query);
+    filterItems(items,query);
+  } else {
+    query = "";
+    filterItems(items,query);
+  }
+  /* add hash if search button clicked */ 
+  $('#goButton').click( function() {
+    window.location.hash = encodeURIComponent($('#quickSearch').val());
+  });
+  /* add hash if if enter is pressed */
+  $('#quickSearch').keypress(function(e){
+    if(e.which == 13){
+        window.location.hash = encodeURIComponent($('#quickSearch').val());
+      }
+  });
+  /* filter if hash changes */ 
+  $(window).on("hashchange", function() {
+    // show spinner
+    $("#loading").show();
+    // read hash
+    query = decodeURIComponent(location.hash.substr(1));
+    $('#quickSearch').val(query);
+    // filter
+    filterItems(items,query);
+  });
+
+</script>
+
+
+
+
+
+
+
+    <style>
+#scroll-to-top {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 0px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    color: #191919; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 0px; /* Rounded corners */
+    font-size: 40px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+</style>
+<div id="scroll-to-top" style="display: none;">
+    <a href="javascript:void(0);" onclick="jQuery('html, body').animate({scrollTop: 0}, 750);" title="Back to Top" aria-label="Back to Top">
+       
+         
+          <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i>
+    
+    </a>
+</div>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("scroll-to-top").style.display = "block";
+  } else {
+    document.getElementById("scroll-to-top").style.display = "none";
+  }
+}
+</script>
+  </body>
+</html>
