@@ -284,7 +284,7 @@ Alternatively, click the “Download” button at the top right to view the full
         columns: [ { data: '0' },{ data: '1' },{ data: '2' },{ data: '3' },{ data: '4' } ],
         columnDefs: [ 
             // turn relative link into absolute
-            { "render": function ( data ) { return 'https://www.lib.uidaho.edu' + data; },"targets": 4 },
+            { "render": function ( data ) { return 'https://collectionbuilder.github.io' + data; },"targets": 4 },
             // combine link with first column
             { "render": function ( data, type, row ) { return '<a href="' + row['4'] +'">'+ data +'</a>'; },"targets": 0 },
             // hide the link column
