@@ -34,7 +34,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single parchment folio with two columns of 31 lines each both recto and verso. Written in dark brown ink with rubrics and capital letters slashed in red. Illegible running head in center of top margin on recto (\"Fo\"? \"85\"?). 10 decorated 2-line initials in red and blue with contrasting flowing pen flourishing (chiefly frogspawn and confetti tendrils). Verso also contains 4 undecorated 1-line initials. Capital C at the beginning of column 2 on the verso extends up into the margin and features a small grotesque of a face with a tiny body. Also on the verso, a red manicule in the left margin indicates the insertion of a phrase boxed in red in the bottom margin (et vixit Caynan postquam genuit Malalehel: Gen. 5:13). Several other minor marginal corrections.",
         "short_description": "Leaf from a breviary: explicit of Lectio I, Feria V of Sexagesima week (...eius nomine filii sui), through responsory of Lectio II of Quinquagesima Sunday (Aedificavit noe altare...et multiplicamini et replete...) (CAO 6055).",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg01.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg01.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026054",
@@ -72,7 +72,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio with a single column of fifteen lines ruled in red. Nine lines of text in faded brown ink on the recto side. Two illuminated initials: D (line 1, recto) is red with blue decoration and gold highlighting on a gold leaf ground; I (lines 2-3, recto) is blue on a red background with gold highlighting in a gold leaf frame, inhabited by a person wearing a white cowl looking downward. Decorative illuminated red and blue line fillers on lines 1 and 9. Top, bottom, and inner margins have thin borders of floral decoration: red flowers with blue stems outlined in black and detailed in white, on a background of gold paint. The border in the outer margin on both sides is much wider, with gold and white bands (which suggest a Loire origin): blue and gold acanthus-leaf decoration on a white background interrupted by triangles of gold-paint decorated with fairly realistic flowers.",
         "short_description": "Leaf from a book of hours (text on recto only), with a prayer for the deceased: \"Domine exaudi. Inclina aures [corrected to m] tuam ad preces nostras quibus misericordiam tuam supplices deprecamur ut animas famulorum tuorum quas de hoc migrare iussisti in pacis ac lucis regione constituas et sanctorum tuorum iubeas esse consortes per Christum.\"",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg02.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg02.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026055",
@@ -110,7 +110,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio printed with: on recto, 4 lines of text in a single column, with a 3/4-length woodcut illustration above depicting the Annunciation to the Shepards; also, extensive woodcut borders depicting images from the life of Christ with biblical captions. Verso: 33 lines of text in a single column, also with extensive borders with four scenes of revelation and worship, with captions; also two sibyls at upper left and lower right. Printed text rubricated by hand with illuminated initials (gold letters on alternating blue and red backgrounds).",
         "short_description": "Leaf from a early printed book of hours, probably published by Simon Vostre, containing the opening of Terce for the Hours of the Virgin, with extensive woodcut illustrations and borders by Philippe Pigouchet. Text begins on recto, \"Deus in adiutorium meum intende...Maria Virgo. Psalmus\" and continues on verso, \"Ad Dominum cum tribularet clamavi:...Propterea benedixit te deus in eternum. Kyrie eleison. Christe el[eison].\"",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg03.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg03.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026051",
@@ -148,7 +148,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "A small book approximately 13.8x9.5x2.2 cm when closed. The cover is brown leather with faded gilded stamping. The binding is nineteenth-century French calf. The center of the back and front covers depicts the crucifixion of Christ with John the Baptist and the Virgin Mary on either side. The binding used to have two clasps which have been lost. The paper folia are frame-ruled, while the parchment folia are lightly ruled and lined in light brown ink.\n\nCollation of 69 folia assembled in quires of 8, with 7 parchment quires flanked by 2 paper quires. Quires 1 and 9 both have only 7 folia; we surmise that the first folio of quire 1 and last folio of quire 9 were used as pastedowns. Quires 2-3 and 5-8 have quire signatures in red Roman capital letters at the bottom right of the recto of the first folio of the quire; with minor variation, the first half of A (2) and B (3) are labeled with lowercase Roman numerals (Ai, Aii, Aiii, Aiv), while the first half of quires 5-8 are labeled with Arabic numerals (C.1, C.2, C.3, C.4). Quire 4 has no quire signatures at all. Quire 5 has only 7 folia, with the sixth folio (between ff. 35-36 as labeled) having been cut out. Nineteenth-century pencil foliation at upper right throughout (labeled ff. 1-59) does not count blank folia: 1 folio btw ff. 22-23; 4 folia in quire 8 after f. 57; and 5 folia at the beginning of quire 9 btw ff. 57-58.\n\nInside the book are 59 marked folios and 10 unmarked folios. The text is written in a single column of twenty lines in brown ink and there are initial capitals and rubrics written in red. There are 35 decorated initials. They range from 1-3 colors used which vary between red, blue, yellow, black, green, and orange. They range in size from two lines high (e.g. f. 5r) to eight lines high: (ff.8, 31, 40, 45, and 50v.)",
         "short_description": "Prayer book, probably for Jesuit use, containing the Penitential Psalms, the Office of the Dead, and additional prayers.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg04.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg04.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026052",
@@ -186,7 +186,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single parchment folio ruled in red ink, written in a single column of twelve lines in black ink. Alternating blue and red initials with simple contrasting (red and blue [now purple]) pen flourishing. Recto contains a single illuminated initial (L) on a field of red and blue with white detailing; more elaborate pen flourishing on verso reaches into the margin.",
         "short_description": "Leaf from a psalter or book of hours. Recto contains explicit of unidentified prayer (\"...sancto spiritu laudemus et super exaltemus eum in secula. Benedictus es domine in firmamento celi et laudabilis et gloriosus et super exaltatus in secula. Amen.\") followed by Psalm 148:1-9, ending at \"Montes\" on verso.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg05.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg05.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026056",
@@ -224,7 +224,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio with 10 lines of text and music in a single column on each side; written in black ink (now faded to brown) with rubrication in red (now more orange). Above each line of text, heightened St. Gall-style neumes on a blind-ruled four-line staff, with lines labeled in thirds [e.g. CAFD or AFDB], and the F line always ruled in red and the C line in yellow.",
         "short_description": "Leaf from a gradual, containing text and music [heightened neumes] of gradual, alleluia, and offertory for the First Sunday of Advent; also introit for the Second Sunday of Advent.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg06.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg06.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026057",
@@ -262,7 +262,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio with a single column of 18 lines of text on each side, ruled in pale red and written in black ink, surrounded by generous margins. Striking contrast between the plainness of the folio (i.e., its utter lack of decoration), and the high quality of the parchment, the size of the margins, and the extremely high quality of the calligraphy; these suggest that marginal decoration was originally intended, but never added.",
         "short_description": "Leaf from a book of hours, containing part of the â€œObsecro te,â€� from â€œ[hu-]manam carnemâ€� through â€œet requestis meis, Et in omnibus [angustiis].â€�",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg07.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg07.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026074",
@@ -300,7 +300,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "A small folio written in faded brown ink on both sides, with rubrication. On the verso there is a large illuminated O in a floral design with pink, blue, green, and yellow. Emerging from the bottom left corner of the O there are decorations of vines and fruit in pink green, and blue, with gold bezants.",
         "short_description": "Leaf from a book of hours, containing the hours of Terce and Sext from the Hours of the Virgin, from the Terce \"Oratio\" through the first â€œGloria patriâ€� of Sext.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg08.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg08.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026068",
@@ -338,7 +338,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single parchment folio ruled in red ink, written in a single column of twelve lines in black ink. Rubrication but no initials or pen flourishing as on 104.1, except for a small amount of faded purple flourishing (originally blue) around a paraph mark (Â¶) on the verso. Each side contains a single 2-line illuminated initial (recto: E; verso: D) on a field of pink and blue with white detailing.",
         "short_description": "Leaf from the same psalter or book of hours as LJS 104.1; this folio contains votive prayers. 1) Explicit of prayer to Sts Peter and Paul: \"...exaudi nos propicius et concede ut amborum meritis eternitatis gloriam consequamur.\" 2) Antiphon, response, and prayer to St John the Evangelist: \"Iohannes apostolus et evangelista virgo est electus...\" (CAO  3494), \"vel\" (or) alternate antiphon: \"Valde honorandus est beatus Iohannes\" (CAO 5309). Response: \"Qui supra pectus domini in sena [should be cena] recubuit\" (not in CAO). Prayer: \"Ecclesiam tuam quesumus domine benignus illustra beati Iohannes apostoli tui et / evangeliste...\" 5) Antiphon, response, and prayer to St Nicholas: \"Oremus. Beatus Nicholaus ad huc puerulus...\" (CAO 1651); \"vel\" (or) alternate antiphon: \"Ora pro nobis beate Nicholae...\" (CAO 4169). Response: \"Ut digni efficiamur...\" Prayer: \"Deus qui beatum Nicholaum pium pontificem tuum innumeris decorasti miracu-.\"",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg09.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg09.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026069",
@@ -376,7 +376,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single parchment folio written in two columns in black ink; no decoration except paraph marks. Running heads in center of top margin read â€œIn Corinth.â€� (recto) and â€œIn Co.â€� (verso). Several textual corrections; also marginal annotations, either corrections or \"Nota.\" Prickings preserved in outer margin.",
         "short_description": "An unidentified commentary on the Pauline epistle to the Corinthians. Text: \"â€¦nitivam sententiam non protulerat sed iudicaverat hoc est in animoâ€¦/â€¦Sed tunc erit hoc temptatio intensa supra .a. ergoâ€¦\"",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg10.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg10.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026070",
@@ -414,7 +414,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio ruled in hard point and written in two columns in black ink (with text beginning above the top ruled line). Short running head: \"liber\" (recto) \"p[rim]o\" (verso). Rubricated chapter titles and marginal callouts; 2-line initials in alternating red and light blue with simple filigree-style pen-flourishing of black on red and red on blue. Folio was formerly used as a pastedown or binding: its corners are cut off and the imprint caused by wear on the edges of a smaller book is clearly visible.",
         "short_description": "Folio containing Peter Lombard, Sentences, Book 1, Distinctio 20.3.6-22.5.2: \"â€¦orem melioremque serpens gigneret filiumâ€¦/â€¦ita ait, Quicquid ad se diciturâ€¦\"",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg11.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg11.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026071",
@@ -452,7 +452,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio ruled in pale red ink and written in a single column of 16 lines in black and red inks, with generous margins (especially a large bottom margin). One initial \"KL\" (Kalends) at the top of the recto page decorated in blue, gold, and red. Rectangular border in outer margin of recto filled with blue and yellow acanthus leaves and blue (lily?) and red (thistle?) flower sprigs.",
         "short_description": "Calendar page from a Book of Hours for the month of October: St. Remigius (â€œRemyâ€�, 10/1); St. Leger/Leodegarius (\"Legier\", 10/2); St. Francis (â€œFrancoisâ€�, 10/4); St. Foy (10/6); St. Denis, patron of France (in red, 10/9); St. Nicasius, bishop of Rouen (â€œNicaise,â€� 10/11); the Archangel Michael (\"Michiel\", actually the dedication of the monastery of Mont-St-Michel, Normandy, 10/16); St. Luke the Evangelist (10/18); St. Vitus (\"Vist\", 10/19); St. Mellon, bishop of Rouen (10/22); St. Rommain, archbishop of Rouen (in red, 10/23); the apostles Simon and Jude (10/28); the Octave of St. Rommain (10/30); and the feast of St. Quentin (10/31), with the vigil of All Saints (11/1). The inclusion of Sts. Nicasius, Mellon, and Rommain (whose name is given in red and whose octave is also included) points to a probable origin in Rouen or the surrounding region.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg12.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg12.html"
     },
     { 
         "briefitem": "http://ncf.sobek.ufl.edu/engine/items/brief/json/AA00026058",
@@ -490,7 +490,7 @@
         "Collection": "Schoenberg Manuscript Collection",
         "description": "Single folio with an unusual oblong shape (probably to facilitate portability), ruled in light red and written in a single column in black ink (now faded). One 2-line decorated initial and numerous paraph marks on both sides alternate gold ink on red and blue backgrounds, with white detailing (except for two, one on each side, which are white ink on a gold background). Recto also contains two marginal notae (abbreviated \"no\") and an \"xxx\" where verse 30 begins. Running head on both sides reads \"Proverbia.\"",
         "short_description": "Leaf from a collection of biblical extracts, containing verses from Proverbs 29 and 30. Text runs from Proverbs 29:12 (â€œquiâ€�) to 30:31 (â€œresistatâ€�), omitting 29:13-14, 16, 18-20, 23 and 25; also 30:1, 3-6, 9-14, 17, and 20.",
-        "reference_url": "https://www.lib.uidaho.edu/schoenberg/items/schoenberg13.html"
+        "reference_url": "https://collectionbuilder.github.io/schoenberg/items/schoenberg13.html"
     }
     
 ] }
