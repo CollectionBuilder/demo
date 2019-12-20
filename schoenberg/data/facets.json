@@ -1,0 +1,72 @@
+{
+    "facets": [ 
+        {
+            "field": "title_original",
+            "terms": { 
+                "book of hours (france, 15th century)": 2,
+                "printed book of hours with woodcut illustrations (france, 1498)": 1,
+                "book of prayers for jesuit use (france, late 16th century)": 1,
+                "book of hours (england, mid-14th century), folio 1 of 2": 1,
+                "gradual ( germany, mid-12th century)": 1,
+                "book of hours (italy, 15th century)": 1,
+                "book of hours (england, mid-14th century), folio 2 of 2": 1,
+                "commentary on st paul's letter to the corinthians (france, 13th century)": 1,
+                "peter lombard, sentences (england or france, ca. 1200)": 1,
+                "calendar page from a book of hours (france, 15th century)": 1,
+                "breviary (france, mid-14th century)": 1,
+                "excerpts from the book of proverbs (france, late 15th century)": 1
+            }
+        },
+        {
+            "field": "subject",
+            "terms": { 
+                "book of hours": 7,
+                "manuscript illumination": 7,
+                "gothic textura": 7,
+                "bã¢tarde": 4,
+                "vostre, simon": 1,
+                "pigouchet, philippe": 1,
+                "prayer books-- early works to 1800": 1,
+                "society of jesus (jesuit order)": 1,
+                "penitential psalms": 1,
+                "office of the dead": 1,
+                "humanistic cursive": 1,
+                "humanistic bookhand": 1,
+                "greek humanistic cursive": 1,
+                "music--early works to 1800": 1,
+                "neumes": 1,
+                "graduals": 1,
+                "caroline minuscule": 1,
+                "obsecro te": 1,
+                "hours of the virgin": 1,
+                "biblical commentary": 1,
+                "bible--corinthians": 1,
+                "bible--pauline epistles": 1,
+                "prickings": 1,
+                "peter lombard, bishop of paris, approximately 1100-1160": 1,
+                "peter lombard, sentences": 1,
+                "binding fragment": 1,
+                "calendar": 1,
+                "biblical extracts": 1,
+                "breviary": 1,
+                "book of proverbs": 1,
+                "pen flourishing": 1,
+                "inhabited initial": 1,
+                "woodcut illustrations": 1
+            }
+        },
+        {
+            "field": "creator",
+            "terms": { 
+            }
+        },
+        {
+            "field": "format",
+            "terms": { 
+                "image/jpeg": 12,
+                "application/pdf": 1
+            }
+        }
+        
+    ]
+}
