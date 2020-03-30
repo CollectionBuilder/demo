@@ -1,8 +1,8 @@
 {
     "title": {
         "media": {
-          "url": "https://cdm16786.contentdm.oclc.org/digital/iiif/p16786coll18/16/full/max/0/default.jpg",
-          "caption": "Samuel Parker, photograph",
+          "url": "https://collectionbuilder.github.io/demo/foundingstories/assets/img/collectionbuilder-logo.png",
+          "caption": null,
           "credit": "Founding Histories Demo"
         },
         "text": {
